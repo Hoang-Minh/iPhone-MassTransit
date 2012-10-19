@@ -14,13 +14,14 @@
 		CEDAA4E616320EFA00FD3A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA4E516320EFA00FD3A25 /* main.m */; };
 		CEDAA4EA16320EFA00FD3A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */; };
 		CEDAA4ED16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */; };
-		CEDAA4F016320EFA00FD3A25 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA4EE16320EFA00FD3A25 /* MainStoryboard_iPad.storyboard */; };
 		CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA4F216320EFA00FD3A25 /* ViewController.m */; };
 		CEDAA4FB16320EFA00FD3A25 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4FA16320EFA00FD3A25 /* SenTestingKit.framework */; };
 		CEDAA4FC16320EFA00FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4FD16320EFA00FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA50516320EFB00FD3A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */; };
 		CEDAA50816320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */; };
+		CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */; };
+		CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA515163210E400FD3A25 /* OCTATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEDAA4EC16320EFA00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		CEDAA4EF16320EFA00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		CEDAA4F116320EFA00FD3A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEDAA4F216320EFA00FD3A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEDAA4F916320EFA00FD3A25 /* Soto.Katie_asgt4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soto.Katie_asgt4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +54,10 @@
 		CEDAA50416320EFB00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAA50616320EFB00FD3A25 /* Soto_Katie_asgt4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soto_Katie_asgt4Tests.h; sourceTree = "<group>"; };
 		CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soto_Katie_asgt4Tests.m; sourceTree = "<group>"; };
+		CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkTableController.h; sourceTree = "<group>"; };
+		CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkTableController.m; sourceTree = "<group>"; };
+		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTATableViewController.h; sourceTree = "<group>"; };
+		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +120,10 @@
 				CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */,
 				CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */,
 				CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */,
-				CEDAA4EE16320EFA00FD3A25 /* MainStoryboard_iPad.storyboard */,
+				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
+				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
+				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
+				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
 				CEDAA4F116320EFA00FD3A25 /* ViewController.h */,
 				CEDAA4F216320EFA00FD3A25 /* ViewController.m */,
 				CEDAA4E016320EFA00FD3A25 /* Supporting Files */,
@@ -227,7 +234,6 @@
 			files = (
 				CEDAA4E416320EFA00FD3A25 /* InfoPlist.strings in Resources */,
 				CEDAA4ED16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard in Resources */,
-				CEDAA4F016320EFA00FD3A25 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +271,8 @@
 				CEDAA4E616320EFA00FD3A25 /* main.m in Sources */,
 				CEDAA4EA16320EFA00FD3A25 /* AppDelegate.m in Sources */,
 				CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */,
+				CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */,
+				CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +309,6 @@
 				CEDAA4EC16320EFA00FD3A25 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		CEDAA4EE16320EFA00FD3A25 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEDAA4EF16320EFA00FD3A25 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */ = {

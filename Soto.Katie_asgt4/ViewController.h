@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MetrolinkTableController.h"
+#import "OCTATableViewController.h"
 
 @interface ViewController : UIViewController
+{
+    @private
+        MetrolinkTableController* _metroController;
+    
+}
+@property (nonatomic, retain) MetrolinkTableController* metroController;
 
 @end

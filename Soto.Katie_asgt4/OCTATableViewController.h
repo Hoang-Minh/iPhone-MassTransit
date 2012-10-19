@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  OCTATableViewController.h
 //  Soto.Katie_asgt4
 //
 //  Created by Lion User on 19/10/2012.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-{
-    UIWindow *window;
-}
-
-@property (strong, nonatomic) UIWindow *window;
+@interface OCTATableViewController : UITableViewController
 
 @end

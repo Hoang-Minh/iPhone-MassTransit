@@ -22,6 +22,10 @@
 		CEDAA50816320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */; };
 		CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */; };
 		CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA515163210E400FD3A25 /* OCTATableViewController.m */; };
+		CEDAA52616321DAC00FD3A25 /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52216321DAC00FD3A25 /* 12-6AM.png */; };
+		CEDAA52716321DAC00FD3A25 /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52316321DAC00FD3A25 /* 12-6PM.png */; };
+		CEDAA52816321DAC00FD3A25 /* 6-12AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52416321DAC00FD3A25 /* 6-12AM.png */; };
+		CEDAA52916321DAC00FD3A25 /* 6-12PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52516321DAC00FD3A25 /* 6-12PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,25 +43,29 @@
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEDAA4E116320EFA00FD3A25 /* Soto.Katie_asgt4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soto.Katie_asgt4-Info.plist"; sourceTree = "<group>"; };
+		CEDAA4E116320EFA00FD3A25 /* Soto.Katie_asgt4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Soto.Katie_asgt4-Info.plist"; path = "Soto.Katie_asgt4/Soto.Katie_asgt4-Info.plist"; sourceTree = "<group>"; };
 		CEDAA4E316320EFA00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CEDAA4E516320EFA00FD3A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEDAA4E716320EFA00FD3A25 /* Soto.Katie_asgt4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Soto.Katie_asgt4-Prefix.pch"; sourceTree = "<group>"; };
-		CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDAA4E516320EFA00FD3A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Soto.Katie_asgt4/main.m; sourceTree = "<group>"; };
+		CEDAA4E716320EFA00FD3A25 /* Soto.Katie_asgt4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Soto.Katie_asgt4-Prefix.pch"; path = "Soto.Katie_asgt4/Soto.Katie_asgt4-Prefix.pch"; sourceTree = "<group>"; };
+		CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Soto.Katie_asgt4/AppDelegate.h; sourceTree = "<group>"; };
+		CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Soto.Katie_asgt4/AppDelegate.m; sourceTree = "<group>"; };
 		CEDAA4EC16320EFA00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		CEDAA4F116320EFA00FD3A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEDAA4F216320EFA00FD3A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDAA4F116320EFA00FD3A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Soto.Katie_asgt4/ViewController.h; sourceTree = "<group>"; };
+		CEDAA4F216320EFA00FD3A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Soto.Katie_asgt4/ViewController.m; sourceTree = "<group>"; };
 		CEDAA4F916320EFA00FD3A25 /* Soto.Katie_asgt4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soto.Katie_asgt4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4FA16320EFA00FD3A25 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CEDAA50216320EFB00FD3A25 /* Soto.Katie_asgt4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soto.Katie_asgt4Tests-Info.plist"; sourceTree = "<group>"; };
 		CEDAA50416320EFB00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAA50616320EFB00FD3A25 /* Soto_Katie_asgt4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soto_Katie_asgt4Tests.h; sourceTree = "<group>"; };
 		CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soto_Katie_asgt4Tests.m; sourceTree = "<group>"; };
-		CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkTableController.h; sourceTree = "<group>"; };
-		CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkTableController.m; sourceTree = "<group>"; };
-		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTATableViewController.h; sourceTree = "<group>"; };
-		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTATableViewController.m; sourceTree = "<group>"; };
+		CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkTableController.h; path = Soto.Katie_asgt4/MetrolinkTableController.h; sourceTree = "<group>"; };
+		CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkTableController.m; path = Soto.Katie_asgt4/MetrolinkTableController.m; sourceTree = "<group>"; };
+		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableViewController.h; path = Soto.Katie_asgt4/OCTATableViewController.h; sourceTree = "<group>"; };
+		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableViewController.m; path = Soto.Katie_asgt4/OCTATableViewController.m; sourceTree = "<group>"; };
+		CEDAA52216321DAC00FD3A25 /* 12-6AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-6AM.png"; sourceTree = "<group>"; };
+		CEDAA52316321DAC00FD3A25 /* 12-6PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-6PM.png"; sourceTree = "<group>"; };
+		CEDAA52416321DAC00FD3A25 /* 6-12AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-12AM.png"; sourceTree = "<group>"; };
+		CEDAA52516321DAC00FD3A25 /* 6-12PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-12PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,10 @@
 		CEDAA4CA16320EF900FD3A25 = {
 			isa = PBXGroup;
 			children = (
-				CEDAA4DF16320EFA00FD3A25 /* Soto.Katie_asgt4 */,
+				CEDAA52A16321DDA00FD3A25 /* Views and Controllers */,
+				CEDAA52B16321DE800FD3A25 /* Models */,
+				CEDAA52C16321DF100FD3A25 /* Other Supporting Files */,
+				CEDAA52016321D6500FD3A25 /* Resources */,
 				CEDAA50016320EFA00FD3A25 /* Soto.Katie_asgt4Tests */,
 				CEDAA4D816320EF900FD3A25 /* Frameworks */,
 				CEDAA4D616320EF900FD3A25 /* Products */,
@@ -114,34 +125,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEDAA4DF16320EFA00FD3A25 /* Soto.Katie_asgt4 */ = {
-			isa = PBXGroup;
-			children = (
-				CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */,
-				CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */,
-				CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */,
-				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
-				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
-				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
-				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
-				CEDAA4F116320EFA00FD3A25 /* ViewController.h */,
-				CEDAA4F216320EFA00FD3A25 /* ViewController.m */,
-				CEDAA4E016320EFA00FD3A25 /* Supporting Files */,
-			);
-			path = Soto.Katie_asgt4;
-			sourceTree = "<group>";
-		};
-		CEDAA4E016320EFA00FD3A25 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEDAA4E116320EFA00FD3A25 /* Soto.Katie_asgt4-Info.plist */,
-				CEDAA4E216320EFA00FD3A25 /* InfoPlist.strings */,
-				CEDAA4E516320EFA00FD3A25 /* main.m */,
-				CEDAA4E716320EFA00FD3A25 /* Soto.Katie_asgt4-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		CEDAA50016320EFA00FD3A25 /* Soto.Katie_asgt4Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +142,59 @@
 				CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDAA52016321D6500FD3A25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA52116321D7C00FD3A25 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEDAA52116321D7C00FD3A25 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA52216321DAC00FD3A25 /* 12-6AM.png */,
+				CEDAA52316321DAC00FD3A25 /* 12-6PM.png */,
+				CEDAA52416321DAC00FD3A25 /* 6-12AM.png */,
+				CEDAA52516321DAC00FD3A25 /* 6-12PM.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CEDAA52A16321DDA00FD3A25 /* Views and Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA4F116320EFA00FD3A25 /* ViewController.h */,
+				CEDAA4F216320EFA00FD3A25 /* ViewController.m */,
+				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
+				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
+				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
+				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
+				CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = "Views and Controllers";
+			sourceTree = "<group>";
+		};
+		CEDAA52B16321DE800FD3A25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CEDAA52C16321DF100FD3A25 /* Other Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */,
+				CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */,
+				CEDAA4E516320EFA00FD3A25 /* main.m */,
+				CEDAA4E216320EFA00FD3A25 /* InfoPlist.strings */,
+				CEDAA4E116320EFA00FD3A25 /* Soto.Katie_asgt4-Info.plist */,
+				CEDAA4E716320EFA00FD3A25 /* Soto.Katie_asgt4-Prefix.pch */,
+			);
+			name = "Other Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +270,10 @@
 			files = (
 				CEDAA4E416320EFA00FD3A25 /* InfoPlist.strings in Resources */,
 				CEDAA4ED16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CEDAA52616321DAC00FD3A25 /* 12-6AM.png in Resources */,
+				CEDAA52716321DAC00FD3A25 /* 12-6PM.png in Resources */,
+				CEDAA52816321DAC00FD3A25 /* 6-12AM.png in Resources */,
+				CEDAA52916321DAC00FD3A25 /* 6-12PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +341,7 @@
 				CEDAA4E316320EFA00FD3A25 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Soto.Katie_asgt4;
 			sourceTree = "<group>";
 		};
 		CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */ = {
@@ -309,6 +350,7 @@
 				CEDAA4EC16320EFA00FD3A25 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
+			path = Soto.Katie_asgt4;
 			sourceTree = "<group>";
 		};
 		CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */ = {

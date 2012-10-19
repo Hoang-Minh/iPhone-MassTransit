@@ -21,10 +21,8 @@
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"Time Zones", @"Time Zones title");
-    self.timeZoneNames = [[NSTimeZone knownTimeZoneNames] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    
-    //PROBLEM: ************************************NSARRAY IS NULL*******************************************
-    NSLog(@"\ntimeZonesNames IN METROLINKTABLECONTROLLER: %@", self.timeZoneNames);
+    //self.timeZoneNames = [[NSTimeZone knownTimeZoneNames] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    self.timeZoneNames = [NSArray arrayWithObjects:@"hey", @"this", @"is", @"a", @"test", nil];
 }
 
 - (void)viewDidUnload
@@ -67,9 +65,6 @@
 	// Set up the cell.
 	NSString *timeZoneName = [timeZoneNames objectAtIndex:indexPath.row];
 	cell.textLabel.text = timeZoneName;
-    
-    //PROBLEM: ************************************NEVER GOES HERE*******************************************
-    NSLog(@"\nTEXT: %@", cell.textLabel.text);
     
     return cell;
 }

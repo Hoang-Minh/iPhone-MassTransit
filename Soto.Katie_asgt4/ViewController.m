@@ -31,11 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    //*****************************FILL METRO INFORMATION, WORKS*********************************
-    NSArray *timeZones = [NSTimeZone knownTimeZoneNames];
-	self.metroController.timeZoneNames = [timeZones sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    NSLog(@"\ntimeZonesNames IN VIEWCONTROLLER: %@", self.metroController.timeZoneNames);
+
 }
 
 - (void)viewDidUnload

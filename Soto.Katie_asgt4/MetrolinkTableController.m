@@ -16,21 +16,12 @@
 
 @synthesize timeZoneNames;
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"Time Zones", @"Time Zones title");
+    self.timeZoneNames = [[NSTimeZone knownTimeZoneNames] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
     //PROBLEM: ************************************NSARRAY IS NULL*******************************************
     NSLog(@"\ntimeZonesNames IN METROLINKTABLECONTROLLER: %@", self.timeZoneNames);
@@ -48,7 +39,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
@@ -65,7 +55,15 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	
+    
+    
+    // If no cell is available, create a new one using the given identifier.
+	if (cell == nil)
+    {
+		// Use the default cell style.
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
 	// Set up the cell.
 	NSString *timeZoneName = [timeZoneNames objectAtIndex:indexPath.row];
 	cell.textLabel.text = timeZoneName;
@@ -76,10 +74,23 @@
     return cell;
 }
 
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
     
 }
+ */
 
+/*
+- (id)initWithStyle:(UITableViewStyle)style
+{
+    self = [super initWithStyle:style];
+    if (self) {
+        // Custom initialization
+    }
+    
+    return self;
+}
+ */
 @end

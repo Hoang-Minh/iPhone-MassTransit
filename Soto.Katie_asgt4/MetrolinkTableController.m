@@ -14,15 +14,15 @@
 
 @implementation MetrolinkTableController
 
-@synthesize timeZoneNames;
+@synthesize displayList;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"Time Zones", @"Time Zones title");
-    //self.timeZoneNames = [[NSTimeZone knownTimeZoneNames] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    self.timeZoneNames = [NSArray arrayWithObjects:@"hey", @"this", @"is", @"a", @"test", nil];
+    //self.displayList = [[NSTimeZone knowndisplayList] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    self.displayList = [NSArray arrayWithObjects:@"hey", @"this", @"is", @"a", @"test", nil];
 }
 
 - (void)viewDidUnload
@@ -46,7 +46,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [timeZoneNames count];
+    return [displayList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -63,8 +63,14 @@
     }
     
 	// Set up the cell.
-	NSString *timeZoneName = [timeZoneNames objectAtIndex:indexPath.row];
-	cell.textLabel.text = timeZoneName;
+	NSString *currentDisplayedItem = [displayList objectAtIndex:indexPath.row];
+	cell.textLabel.text = currentDisplayedItem;
+    cell.detailTextLabel.text = @"test";
+    
+    UIImage *theImage = [UIImage imageNamed:(@"12-6AM.png")];
+    cell.imageView.image = theImage;
+    
+    NSLog(@"HERE");
     
     return cell;
 }

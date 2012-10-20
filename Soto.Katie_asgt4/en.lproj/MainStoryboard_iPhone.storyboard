@@ -81,6 +81,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="LNd-6a-V0j" id="mWe-Vv-5bn"/>
                             <outlet property="delegate" destination="LNd-6a-V0j" id="rHY-uf-qAR"/>

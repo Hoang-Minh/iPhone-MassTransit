@@ -11,9 +11,9 @@
 @interface MetrolinkTableController : UITableViewController
 {
     
-    NSArray *timeZoneNames;
+    NSArray *displayList;
 
 }
 
-@property (nonatomic, retain) NSArray *timeZoneNames;
+@property (nonatomic, retain) NSArray *displayList;
 @end

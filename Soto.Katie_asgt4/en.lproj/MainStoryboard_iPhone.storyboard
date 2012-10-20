@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - Welcome!-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -47,16 +47,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kTS-PP-xrz"/>
+                    <navigationItem key="navigationItem" title="Welcome!" id="kTS-PP-xrz">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="9yK-ba-djx"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="66" y="180"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I2b-RQ-pKf">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3XC-eL-NCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="QeW-ve-k4r" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g8i-zW-8B8">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="g8i-zW-8B8">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -66,61 +72,46 @@
             </objects>
             <point key="canvasLocation" x="-420" y="180"/>
         </scene>
-        <!--Metrolink Table Controller - Title-->
+        <!--Metrolink Table Controller - Metrolink Trains-->
         <scene sceneID="M2k-AT-iN2">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvQ-CE-LUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="LNd-6a-V0j" customClass="MetrolinkTableController" sceneMemberID="viewController">
+                <tableViewController title="Metrolink Trains" id="LNd-6a-V0j" customClass="MetrolinkTableController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e5n-2R-jwo">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="s92-sM-hXF">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="LNd-6a-V0j" id="mWe-Vv-5bn"/>
                             <outlet property="delegate" destination="LNd-6a-V0j" id="rHY-uf-qAR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Title" id="4tl-zQ-nTj"/>
+                    <navigationItem key="navigationItem" title="METROLINK" id="4tl-zQ-nTj">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Dlx-dE-KCa"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="588" y="-60"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - OCTA Buses-->
         <scene sceneID="oDY-ZD-ylZ">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejD-ly-H2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="8IX-TU-gkq" customClass="OCTATableViewController" sceneMemberID="viewController">
+                <tableViewController title="OCTA Buses" id="8IX-TU-gkq" customClass="OCTATableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ShQ-6r-PHe">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="qNU-or-DwT">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="8IX-TU-gkq" id="98f-4t-AIf"/>
                             <outlet property="delegate" destination="8IX-TU-gkq" id="wXw-R0-yJo"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="OCTA" id="WxH-nY-N2o">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Vzm-sn-lEF"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="593" y="522"/>

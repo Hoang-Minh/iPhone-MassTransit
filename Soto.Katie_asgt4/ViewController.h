@@ -15,6 +15,10 @@
     @private
         MetrolinkTableController* _metroController;
     
+    //Maybe I need to add some of these to get the navigation bar working:
+    //UINavigationBar
+    //UINavigationItem
+    //UINavigationController
 }
 @property (nonatomic, retain) MetrolinkTableController* metroController;
 

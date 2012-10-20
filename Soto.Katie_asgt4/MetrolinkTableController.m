@@ -59,7 +59,10 @@
 	if (cell == nil)
     {
 		// Use the default cell style.
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //cell.accessoryView =
     }
     
 	// Set up the cell.
@@ -69,8 +72,6 @@
     
     UIImage *theImage = [UIImage imageNamed:(@"12-6AM.png")];
     cell.imageView.image = theImage;
-    
-    NSLog(@"HERE");
     
     return cell;
 }

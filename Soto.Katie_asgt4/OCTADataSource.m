@@ -22,6 +22,7 @@
                            @"North Main Corona",
                            @"West Corona",
                            @"Fullerton", nil];
+        
         self.octaServices = [[NSArray alloc]
                              initWithObjects:@"701",
                              @"701",

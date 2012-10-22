@@ -41,11 +41,12 @@
 {
     if ([[segue identifier] isEqualToString:@"ShowMetroDetails"])
     {
-        _detailView = [segue destinationViewController];
+        //_detailView = [segue destinationViewController];
+        MetrolinkDetailViewController *detailViewController = [segue destinationViewController];
         
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
         
-        _detailView.metroData = [[NSArray alloc]
+        detailViewController.metroData = [[NSArray alloc]
                                  initWithObjects:
                                  [self.metroData.metroCities objectAtIndex:[myIndexPath row]],
                                  [self.metroData.metroImages objectAtIndex:[myIndexPath row]],
@@ -92,7 +93,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"metrolinkCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     
@@ -101,8 +102,8 @@
     {
 		// Use the default cell style.
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-        //cell.selectionStyle = UITableViewCellSelectionStyleBlue;
-        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         //cell.accessoryView =
     }
     

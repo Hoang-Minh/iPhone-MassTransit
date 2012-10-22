@@ -28,8 +28,8 @@
 {
     if(_tableCell == nil)
     {
-        //_tableCell = [[OCTATableCell alloc] init];
-        _tableCell = [[OCTATableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:(@"octaTableCell")];
+        _tableCell = [[OCTATableCell alloc] init];
+        //_tableCell = [[OCTATableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:(@"octaTableCell")];
     }
     return _tableCell;
 }
@@ -96,21 +96,21 @@
     }
 
     
-    /*
+    
     cell.octaCity.text = [self.dataSource.octaCities objectAtIndex:[indexPath row]];
     cell.octaService.text = [self.dataSource.octaServices objectAtIndex:[indexPath row]];
     cell.octaTime.text = [self.dataSource.octaTimes objectAtIndex:[indexPath row]];
 
     UIImage *cellImage = [UIImage imageNamed: [self.dataSource.octaImages objectAtIndex: [indexPath row]]];
     cell.octaImage.image = cellImage;
-    */
     
+    /*
     cell.octaCity.text = @"test";
     cell.octaService.text = @"testo";
     cell.octaTime.text = @"tests";
     
     cell.octaImage.image = [UIImage imageNamed:@"12.6AM.png"];
-    
+    */
     return cell;
 }
 

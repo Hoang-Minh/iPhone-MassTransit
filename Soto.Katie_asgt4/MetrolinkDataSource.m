@@ -16,8 +16,7 @@
     if(self)
     {
         self.metroCities = [[NSArray alloc]
-                           initWithObjects:
-                           @"Riverside-Downtown",
+                           initWithObjects:@"Riverside-Downtown",
                            @"Riverside-La Sierra",
                            @"North Main Corona",
                            @"West Corona",
@@ -25,16 +24,14 @@
         
 
         self.metroImages = [[NSArray alloc]
-                           initWithObjects:
-                           @"12-6AM.png",
+                           initWithObjects:@"12-6AM.png",
                            @"12-6AM.png",
                            @"12-6AM.png",
                            @"12-6AM.png",
                            @"12-6AM.png", nil];
         
         self.metroTimes = [[NSArray alloc]
-                           initWithObjects:
-                           @"5:29",
+                           initWithObjects:@"5:29",
                            @"5:39",
                            @"5:47",
                            @"5:53",

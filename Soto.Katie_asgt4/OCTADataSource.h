@@ -11,9 +11,9 @@
     NSArray *octaImages;
 }
 
-@property (nonatomic, strong) NSArray *octaCities;
-@property (nonatomic, strong) NSArray *octaServices;
-@property (nonatomic, strong) NSArray *octaTimes;
-@property (nonatomic, strong) NSArray *octaImages;
+@property (nonatomic, retain) NSArray *octaCities;
+@property (nonatomic, retain) NSArray *octaServices;
+@property (nonatomic, retain) NSArray *octaTimes;
+@property (nonatomic, retain) NSArray *octaImages;
 
 @end

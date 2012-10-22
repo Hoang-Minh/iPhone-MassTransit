@@ -10,6 +10,7 @@
 @synthesize octaTimes;
 @synthesize octaImages;
 
+//***********************************************
 - (id) init
 {
     self = [super init];

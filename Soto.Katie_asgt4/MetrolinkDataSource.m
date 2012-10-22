@@ -9,6 +9,7 @@
 @synthesize metroImages;
 @synthesize metroTimes;
 
+//***********************************************
 - (id) init
 {
     self = [super init];

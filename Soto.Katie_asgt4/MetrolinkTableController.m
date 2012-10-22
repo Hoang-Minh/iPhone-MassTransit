@@ -101,8 +101,8 @@
     {
 		// Use the default cell style.
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-        cell.selectionStyle = UITableViewCellSelectionStyleBlue;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         //cell.accessoryView =
     }
     

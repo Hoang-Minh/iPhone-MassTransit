@@ -1,19 +1,23 @@
-//
-//  MetrolinkTableControllerViewController.h
-//  Soto.Katie_asgt4
-//
-//  Created by Lion User on 19/10/2012.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//Metrolink: Trying to use DYNAMIC cells
 //
 
 #import <UIKit/UIKit.h>
+#import "MetrolinkDataSource.h"
+#import "MetrolinkDetailViewController.h"
 
 @interface MetrolinkTableController : UITableViewController
 {
     
     NSArray *displayList;
+    
+    @private
+    MetrolinkDataSource *_metroData;
+    MetrolinkDetailViewController *_detailView;
 
 }
 
 @property (nonatomic, retain) NSArray *displayList;
+@property (nonatomic, retain) MetrolinkDataSource *metroData;
+@property (nonatomic, retain) MetrolinkDetailViewController *detailView;
+
 @end

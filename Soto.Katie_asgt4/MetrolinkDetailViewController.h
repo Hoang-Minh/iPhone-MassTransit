@@ -1,9 +1,4 @@
-//
-//  MetrolinkDetailViewController.h
-//  Soto.Katie_asgt4
-//
-//  Created by Guest User on 10/22/12.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//Metrolink: Trying to use DYNAMIC cells
 //
 
 #import <UIKit/UIKit.h>
@@ -14,10 +9,13 @@
     IBOutlet UIImageView *metroImage;
     IBOutlet UILabel *metroCity;
     IBOutlet UILabel *metroTime;
+    @private
+    MetrolinkDataSource *_metroData;
 }
 
 @property (nonatomic, strong) IBOutlet UIImageView *metroImage;
 @property (nonatomic, strong) IBOutlet UILabel *metroCity;
 @property (nonatomic, strong) IBOutlet UILabel *metroTime;
+@property (nonatomic, retain) MetrolinkDataSource *metroData;
 
 @end

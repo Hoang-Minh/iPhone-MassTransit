@@ -1,9 +1,4 @@
-//
-//  OCTATableViewController.m
-//  Soto.Katie_asgt4
-//
-//  Created by Lion User on 19/10/2012.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//OCTA: Trying to use STATIC cells
 //
 
 #import "OCTATableViewController.h"
@@ -86,8 +81,6 @@
 //***********************************************
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    NSLog(@"/nArray in OCTATableViewController: %@", self.dataSource.octaCities);
     static NSString *CellIdentifier = @"octaTableCell";
     
     OCTATableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -101,14 +94,22 @@
         //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         //cell.accessoryView =
     }
-    // Configure the cell...
+
     
+    /*
     cell.octaCity.text = [self.dataSource.octaCities objectAtIndex:[indexPath row]];
     cell.octaService.text = [self.dataSource.octaServices objectAtIndex:[indexPath row]];
     cell.octaTime.text = [self.dataSource.octaTimes objectAtIndex:[indexPath row]];
 
     UIImage *cellImage = [UIImage imageNamed: [self.dataSource.octaImages objectAtIndex: [indexPath row]]];
     cell.octaImage.image = cellImage;
+    */
+    
+    cell.octaCity.text = @"test";
+    cell.octaService.text = @"testo";
+    cell.octaTime.text = @"tests";
+    
+    cell.octaImage.image = [UIImage imageNamed:@"12.6AM.png"];
     
     return cell;
 }

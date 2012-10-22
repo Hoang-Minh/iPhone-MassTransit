@@ -1,9 +1,4 @@
-//
-//  MetrolinkTableControllerViewController.m
-//  Soto.Katie_asgt4
-//
-//  Created by Lion User on 19/10/2012.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//Metrolink: Trying to use DYNAMIC cells
 //
 
 #import "MetrolinkTableController.h"
@@ -15,6 +10,52 @@
 @implementation MetrolinkTableController
 
 @synthesize displayList;
+@synthesize metroData = _metroData;
+@synthesize detailView = _detailView;
+
+//***********************************************
+//if a null pointer, we need to initalize it
+-(MetrolinkDataSource*) metroData;
+{
+    if(_metroData == nil)
+    {
+        _metroData = [[MetrolinkDataSource alloc] init];
+    }
+    return _metroData;
+}
+
+//***********************************************
+//if a null pointer, we need to initalize it
+-(MetrolinkDetailViewController*) detailView;
+{
+    if(_detailView == nil)
+    {
+        _detailView = [[MetrolinkDetailViewController alloc] init];
+    }
+    return _detailView;
+}
+
+//***********************************************
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowMetroDetails"])
+    {
+        _detailView = [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+        
+        _detailView.metroData = [[NSArray alloc]
+                                 initWithObjects:
+                                 [self.metroData.metroCities objectAtIndex:[myIndexPath row]],
+                                 [self.metroData.metroImages objectAtIndex:[myIndexPath row]],
+                                 [self.metroData.metroTimes objectAtIndex:[myIndexPath row]],
+                                 nil];
+        
+    }
+}
+
+//***********************************************
 
 - (void)viewDidLoad
 {

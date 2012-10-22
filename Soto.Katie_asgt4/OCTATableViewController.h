@@ -1,9 +1,4 @@
-//
-//  OCTATableViewController.h
-//  Soto.Katie_asgt4
-//
-//  Created by Lion User on 19/10/2012.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//OCTA: Trying to use STATIC cells
 //
 
 #import <UIKit/UIKit.h>

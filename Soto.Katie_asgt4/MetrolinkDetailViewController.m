@@ -1,9 +1,4 @@
-//
-//  MetrolinkDetailViewController.m
-//  Soto.Katie_asgt4
-//
-//  Created by Guest User on 10/22/12.
-//  Copyright (c) 2012 Katie Soto. All rights reserved.
+//Metrolink: Trying to use DYNAMIC cells
 //
 
 #import "MetrolinkDetailViewController.h"
@@ -17,6 +12,18 @@
 @synthesize metroCity;
 @synthesize metroImage;
 @synthesize metroTime;
+@synthesize metroData = _metroData;
+
+//***********************************************
+//if a null pointer, we need to initalize it
+-(MetrolinkDataSource*) metroData;
+{
+    if(_metroData == nil)
+    {
+        _metroData = [[MetrolinkDataSource alloc] init];
+    }
+    return _metroData;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,7 +39,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    //self.metroCity.text =
+    self.metroCity.text = @"test";
+    self.metroTime.text = @"1:00";
+    
+    UIImage *myImage = [UIImage imageNamed:@"12-6AM.png"];
+    self.metroImage.image = myImage;
+    
 }
 
 - (void)viewDidUnload

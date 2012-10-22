@@ -7,8 +7,6 @@
 //
 
 #import "OCTATableViewController.h"
-#import "OCTADataSource.h"
-#import "OCTATableCell.h"
 
 @interface OCTATableViewController ()
 
@@ -35,7 +33,8 @@
 {
     if(_tableCell == nil)
     {
-        _tableCell = [[OCTATableCell alloc] init];
+        //_tableCell = [[OCTATableCell alloc] init];
+        _tableCell = [[OCTATableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:(@"octaTableCell")];
     }
     return _tableCell;
 }
@@ -87,6 +86,8 @@
 //***********************************************
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    NSLog(@"/nArray in OCTATableViewController: %@", self.dataSource.octaCities);
     static NSString *CellIdentifier = @"octaTableCell";
     
     OCTATableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -95,19 +96,19 @@
 	if (cell == nil)
     {
 		// Use the default cell style.
-		cell = [[OCTATableCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+		cell = [[OCTATableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         //cell.selectionStyle = UITableViewCellSelectionStyleBlue;
         //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         //cell.accessoryView =
     }
     // Configure the cell...
+    
     cell.octaCity.text = [self.dataSource.octaCities objectAtIndex:[indexPath row]];
     cell.octaService.text = [self.dataSource.octaServices objectAtIndex:[indexPath row]];
     cell.octaTime.text = [self.dataSource.octaTimes objectAtIndex:[indexPath row]];
 
     UIImage *cellImage = [UIImage imageNamed: [self.dataSource.octaImages objectAtIndex: [indexPath row]]];
     cell.octaImage.image = cellImage;
-
     
     return cell;
 }

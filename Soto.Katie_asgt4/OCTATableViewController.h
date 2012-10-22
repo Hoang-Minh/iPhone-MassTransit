@@ -14,7 +14,6 @@
 {
     OCTADataSource *_dataSource;
     OCTATableCell *_tableCell;
-    
 }
 
 @property (nonatomic, retain) OCTADataSource *dataSource;

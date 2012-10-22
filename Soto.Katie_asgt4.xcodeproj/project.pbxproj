@@ -116,12 +116,21 @@
 			name = OCTA;
 			sourceTree = "<group>";
 		};
+		ACFDD3211635DB6D004F93E4 /* Metrolink */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
+				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
+			);
+			name = Metrolink;
+			sourceTree = "<group>";
+		};
 		CEDAA4CA16320EF900FD3A25 = {
 			isa = PBXGroup;
 			children = (
+				ACFDD3211635DB6D004F93E4 /* Metrolink */,
 				ACFDD2FE1635D3D6004F93E4 /* OCTA */,
-				CEDAA52A16321DDA00FD3A25 /* Views and Controllers */,
-				CEDAA52B16321DE800FD3A25 /* Models */,
+				CEDAA52A16321DDA00FD3A25 /* Main Files */,
 				CEDAA52C16321DF100FD3A25 /* Other Supporting Files */,
 				CEDAA52016321D6500FD3A25 /* Resources */,
 				CEDAA50016320EFA00FD3A25 /* Soto.Katie_asgt4Tests */,
@@ -188,30 +197,21 @@
 			name = images;
 			sourceTree = "<group>";
 		};
-		CEDAA52A16321DDA00FD3A25 /* Views and Controllers */ = {
+		CEDAA52A16321DDA00FD3A25 /* Main Files */ = {
 			isa = PBXGroup;
 			children = (
 				CEDAA4F116320EFA00FD3A25 /* ViewController.h */,
 				CEDAA4F216320EFA00FD3A25 /* ViewController.m */,
-				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
-				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
 				CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */,
+				CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */,
+				CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */,
 			);
-			name = "Views and Controllers";
-			sourceTree = "<group>";
-		};
-		CEDAA52B16321DE800FD3A25 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
+			name = "Main Files";
 			sourceTree = "<group>";
 		};
 		CEDAA52C16321DF100FD3A25 /* Other Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEDAA4E816320EFA00FD3A25 /* AppDelegate.h */,
-				CEDAA4E916320EFA00FD3A25 /* AppDelegate.m */,
 				CEDAA4E516320EFA00FD3A25 /* main.m */,
 				CEDAA4E216320EFA00FD3A25 /* InfoPlist.strings */,
 				CEDAA4E116320EFA00FD3A25 /* Soto.Katie_asgt4-Info.plist */,

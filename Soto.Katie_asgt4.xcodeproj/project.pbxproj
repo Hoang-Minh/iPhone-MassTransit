@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACFDD2F91635C640004F93E4 /* OCTADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */; };
+		ACFDD2FD1635CDD4004F93E4 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */; };
+		ACFDD3011635D3F9004F93E4 /* OCTATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACFDD2F71635C640004F93E4 /* OCTADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADetailViewController.h; sourceTree = "<group>"; };
+		ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADetailViewController.m; sourceTree = "<group>"; };
+		ACFDD2FB1635CDD4004F93E4 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADataSource.h; sourceTree = "<group>"; };
+		ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADataSource.m; sourceTree = "<group>"; };
+		ACFDD2FF1635D3F9004F93E4 /* OCTATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTATableCell.h; sourceTree = "<group>"; };
+		ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTATableCell.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,9 +101,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACFDD2FE1635D3D6004F93E4 /* OCTA */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
+				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
+				ACFDD2FB1635CDD4004F93E4 /* OCTADataSource.h */,
+				ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */,
+				ACFDD2FF1635D3F9004F93E4 /* OCTATableCell.h */,
+				ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */,
+				ACFDD2F71635C640004F93E4 /* OCTADetailViewController.h */,
+				ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */,
+			);
+			name = OCTA;
+			sourceTree = "<group>";
+		};
 		CEDAA4CA16320EF900FD3A25 = {
 			isa = PBXGroup;
 			children = (
+				ACFDD2FE1635D3D6004F93E4 /* OCTA */,
 				CEDAA52A16321DDA00FD3A25 /* Views and Controllers */,
 				CEDAA52B16321DE800FD3A25 /* Models */,
 				CEDAA52C16321DF100FD3A25 /* Other Supporting Files */,
@@ -170,8 +195,6 @@
 				CEDAA4F216320EFA00FD3A25 /* ViewController.m */,
 				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
 				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
-				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
-				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
 				CEDAA4EB16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard */,
 			);
 			name = "Views and Controllers";
@@ -313,6 +336,9 @@
 				CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */,
 				CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */,
 				CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */,
+				ACFDD2F91635C640004F93E4 /* OCTADetailViewController.m in Sources */,
+				ACFDD2FD1635CDD4004F93E4 /* OCTADataSource.m in Sources */,
+				ACFDD3011635D3F9004F93E4 /* OCTATableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +516,7 @@
 				CEDAA50D16320EFB00FD3A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEDAA50E16320EFB00FD3A25 /* Build configuration list for PBXNativeTarget "Soto.Katie_asgt4Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +525,7 @@
 				CEDAA51016320EFB00FD3A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -95,15 +95,78 @@
             </objects>
             <point key="canvasLocation" x="588" y="-60"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="SS1-ww-cIs">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AFh-sA-vXm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="MDJ-EI-bPB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4x0-JD-CGC">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AGc-9b-wP2"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1005" y="-60"/>
+        </scene>
         <!--Table View Controller - OCTA Buses-->
         <scene sceneID="oDY-ZD-ylZ">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejD-ly-H2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="OCTA Buses" id="8IX-TU-gkq" customClass="OCTATableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ShQ-6r-PHe">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ShQ-6r-PHe">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="Inbound" id="KIZ-jS-Nvz">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="octaTableCell" id="qsV-tE-Scy" customClass="OCTATableCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vR6-rM-Kob">
+                                                    <rect key="frame" x="59" y="2" width="159" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="qyz-jQ-NQL">
+                                                    <rect key="frame" x="16" y="4" width="35" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Service Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="al3-Lr-PEJ">
+                                                    <rect key="frame" x="59" y="22" width="159" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="6Bm-61-D5s">
+                                                    <rect key="frame" x="233" y="11" width="67" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="octaCity" destination="vR6-rM-Kob" id="QoA-dj-M5V"/>
+                                            <outlet property="octaImage" destination="qyz-jQ-NQL" id="Vad-HN-h6v"/>
+                                            <outlet property="octaService" destination="al3-Lr-PEJ" id="waR-ew-wdC"/>
+                                            <outlet property="octaTime" destination="6Bm-61-D5s" id="vz0-uw-6mn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="8IX-TU-gkq" id="98f-4t-AIf"/>
                             <outlet property="delegate" destination="8IX-TU-gkq" id="wXw-R0-yJo"/>
@@ -121,6 +184,15 @@
     <classes>
         <class className="MetrolinkTableController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkTableController.h"/>
+        </class>
+        <class className="OCTATableCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="octaCity" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="octaImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="octaService" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="octaTime" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="OCTATableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableViewController.h"/>

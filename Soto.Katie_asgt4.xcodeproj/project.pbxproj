@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACFDD2F91635C640004F93E4 /* OCTADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */; };
-		ACFDD2FD1635CDD4004F93E4 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */; };
-		ACFDD3011635D3F9004F93E4 /* OCTATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */; };
+		AC88154E1635EA5300141253 /* MetrolinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */; };
+		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
+		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
+		AC88155E1635F01800141253 /* OCTATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155D1635F01700141253 /* OCTATableCell.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -42,12 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ACFDD2F71635C640004F93E4 /* OCTADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADetailViewController.h; sourceTree = "<group>"; };
-		ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADetailViewController.m; sourceTree = "<group>"; };
-		ACFDD2FB1635CDD4004F93E4 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADataSource.h; sourceTree = "<group>"; };
-		ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADataSource.m; sourceTree = "<group>"; };
-		ACFDD2FF1635D3F9004F93E4 /* OCTATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTATableCell.h; sourceTree = "<group>"; };
-		ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTATableCell.m; sourceTree = "<group>"; };
+		AC88154C1635EA5300141253 /* MetrolinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDetailViewController.h; path = Soto.Katie_asgt4/MetrolinkDetailViewController.h; sourceTree = "<group>"; };
+		AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDetailViewController.m; path = Soto.Katie_asgt4/MetrolinkDetailViewController.m; sourceTree = "<group>"; };
+		AC8815561635EC5700141253 /* MetrolinkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDataSource.h; path = Soto.Katie_asgt4/MetrolinkDataSource.h; sourceTree = "<group>"; };
+		AC8815571635EC5700141253 /* MetrolinkDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDataSource.m; path = Soto.Katie_asgt4/MetrolinkDataSource.m; sourceTree = "<group>"; };
+		AC8815591635EF9100141253 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTADataSource.h; path = Soto.Katie_asgt4/OCTADataSource.h; sourceTree = "<group>"; };
+		AC88155A1635EF9100141253 /* OCTADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTADataSource.m; path = Soto.Katie_asgt4/OCTADataSource.m; sourceTree = "<group>"; };
+		AC88155C1635F01700141253 /* OCTATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableCell.h; path = Soto.Katie_asgt4/OCTATableCell.h; sourceTree = "<group>"; };
+		AC88155D1635F01700141253 /* OCTATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableCell.m; path = Soto.Katie_asgt4/OCTATableCell.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,12 +109,10 @@
 			children = (
 				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
 				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
-				ACFDD2FB1635CDD4004F93E4 /* OCTADataSource.h */,
-				ACFDD2FC1635CDD4004F93E4 /* OCTADataSource.m */,
-				ACFDD2FF1635D3F9004F93E4 /* OCTATableCell.h */,
-				ACFDD3001635D3F9004F93E4 /* OCTATableCell.m */,
-				ACFDD2F71635C640004F93E4 /* OCTADetailViewController.h */,
-				ACFDD2F81635C640004F93E4 /* OCTADetailViewController.m */,
+				AC88155C1635F01700141253 /* OCTATableCell.h */,
+				AC88155D1635F01700141253 /* OCTATableCell.m */,
+				AC8815591635EF9100141253 /* OCTADataSource.h */,
+				AC88155A1635EF9100141253 /* OCTADataSource.m */,
 			);
 			name = OCTA;
 			sourceTree = "<group>";
@@ -121,6 +122,10 @@
 			children = (
 				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
 				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
+				AC88154C1635EA5300141253 /* MetrolinkDetailViewController.h */,
+				AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */,
+				AC8815561635EC5700141253 /* MetrolinkDataSource.h */,
+				AC8815571635EC5700141253 /* MetrolinkDataSource.m */,
 			);
 			name = Metrolink;
 			sourceTree = "<group>";
@@ -336,9 +341,10 @@
 				CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */,
 				CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */,
 				CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */,
-				ACFDD2F91635C640004F93E4 /* OCTADetailViewController.m in Sources */,
-				ACFDD2FD1635CDD4004F93E4 /* OCTADataSource.m in Sources */,
-				ACFDD3011635D3F9004F93E4 /* OCTATableCell.m in Sources */,
+				AC88154E1635EA5300141253 /* MetrolinkDetailViewController.m in Sources */,
+				AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */,
+				AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */,
+				AC88155E1635F01800141253 /* OCTATableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

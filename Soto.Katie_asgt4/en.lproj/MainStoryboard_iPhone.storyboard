@@ -95,17 +95,45 @@
             </objects>
             <point key="canvasLocation" x="588" y="-60"/>
         </scene>
-        <!--View Controller-->
+        <!--Metrolink Detail View Controller-->
         <scene sceneID="SS1-ww-cIs">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFh-sA-vXm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="MDJ-EI-bPB" sceneMemberID="viewController">
+                <viewController id="MDJ-EI-bPB" customClass="MetrolinkDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4x0-JD-CGC">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="JJ6-Td-PnZ">
+                                <rect key="frame" x="0.0" y="104" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="NSV-RC-7vu">
+                                <rect key="frame" x="0.0" y="139" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="yep-l1-4Sj">
+                                <rect key="frame" x="40" y="224" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AGc-9b-wP2"/>
+                    <connections>
+                        <outlet property="metroCity" destination="JJ6-Td-PnZ" id="Bu1-4J-loD"/>
+                        <outlet property="metroImage" destination="yep-l1-4Sj" id="Amk-yr-8wd"/>
+                        <outlet property="metroTime" destination="NSV-RC-7vu" id="9wu-n4-1uK"/>
+                        <outlet property="octaCity" destination="JJ6-Td-PnZ" id="23G-hr-ro6"/>
+                        <outlet property="octaImage" destination="yep-l1-4Sj" id="Mfy-aC-GgI"/>
+                        <outlet property="octaTime" destination="NSV-RC-7vu" id="uEO-ga-Nz3"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1005" y="-60"/>
@@ -182,6 +210,15 @@
         </scene>
     </scenes>
     <classes>
+        <class className="MetrolinkDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="metroCity" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="metroImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="metroService" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="metroTime" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="MetrolinkTableController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkTableController.h"/>
         </class>

@@ -15,17 +15,9 @@
 
 @implementation ViewController
 
-@synthesize metroController = _metroController;
 
-//if "metroController" is a null pointer, we need to initalize it
--(MetrolinkTableController*) metroController;
-{
-    if(_metroController == nil)
-    {
-        _metroController = [[MetrolinkTableController alloc] initWithStyle:UITableViewStylePlain];
-    }
-    return _metroController;
-}
+
+
 
 - (void)viewDidLoad
 {

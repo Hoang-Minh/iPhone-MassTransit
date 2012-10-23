@@ -8,6 +8,7 @@
 @synthesize metroCities;
 @synthesize metroImages;
 @synthesize metroTimes;
+@synthesize metroAntelopeValleyCities;
 
 //***********************************************
 - (id) init
@@ -36,6 +37,30 @@
                            @"5:47",
                            @"5:53",
                            @"6:18", nil];
+        
+        //complete
+        self.metroLines = [[NSArray alloc]
+                           initWithObjects:@"Antelope Valley",
+                           @"Burbank-Bob Hope Airport",
+                           @"Inland Empire - Orange County",
+                           @"Riverside",
+                           @"San Bernardino",
+                           @"Ventura County",
+                           @"91 Line", nil];
+        
+        self.metroAntelopeValleyCities = [[NSArray alloc]
+                                          initWithObjects:@"Lancaster",
+                                          @"Palmdale",
+                                          @"Vincent Grade / Action",
+                                          @"Via Princessa",
+                                          @"Santa Clarita",
+                                          @"Newhall",
+                                          @"Sylmar / San Fernando",
+                                          @"Sun Valley",
+                                          @"Downtown Burbank",
+                                          @"Glendale",
+                                          @"L.A. Union Station", nil];
+        
         
     }
     return self;

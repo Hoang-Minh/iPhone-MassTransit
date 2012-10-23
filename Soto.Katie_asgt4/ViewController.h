@@ -7,19 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MetrolinkTableController.h"
 #import "OCTATableViewController.h"
 
 @interface ViewController : UIViewController
 {
-    @private
-        MetrolinkTableController* _metroController;
+
     
     //Maybe I need to add some of these to get the navigation bar working:
     //UINavigationBar
     //UINavigationItem
     //UINavigationController
 }
-@property (nonatomic, retain) MetrolinkTableController* metroController;
+
 
 @end

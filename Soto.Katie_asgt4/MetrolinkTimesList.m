@@ -1,21 +1,18 @@
 //
-//  MetrolinkLineDetail.m
+//  MetrolinkTimesList.m
 //  Soto.Katie_asgt4
 //
 //  Created by Lion User on 23/10/2012.
 //  Copyright (c) 2012 Katie Soto. All rights reserved.
 //
 
-#import "MetrolinkLineDetail.h"
+#import "MetrolinkTimesList.h"
 
-@interface MetrolinkLineDetail ()
+@interface MetrolinkTimesList ()
 
 @end
 
-@implementation MetrolinkLineDetail
-
-@synthesize lineLabel;
-@synthesize lineName;
+@implementation MetrolinkTimesList
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,7 +27,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    lineLabel.text = lineName;
 }
 
 - (void)viewDidUnload

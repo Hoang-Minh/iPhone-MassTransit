@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC88154E1635EA5300141253 /* MetrolinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */; };
 		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
 		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
 		AC88155E1635F01800141253 /* OCTATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155D1635F01700141253 /* OCTATableCell.m */; };
-		CE8E1E2516372E8A00DCB6CF /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E2416372E8900DCB6CF /* TestController.m */; };
-		CE8E1E29163734FB00DCB6CF /* MetrolinkLineDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E28163734FB00DCB6CF /* MetrolinkLineDetail.m */; };
+		CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */; };
+		CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */; };
+		CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -26,7 +26,6 @@
 		CEDAA4FD16320EFA00FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA50516320EFB00FD3A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */; };
 		CEDAA50816320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */; };
-		CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */; };
 		CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA515163210E400FD3A25 /* OCTATableViewController.m */; };
 		CEDAA52616321DAC00FD3A25 /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52216321DAC00FD3A25 /* 12-6AM.png */; };
 		CEDAA52716321DAC00FD3A25 /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52316321DAC00FD3A25 /* 12-6PM.png */; };
@@ -45,18 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC88154C1635EA5300141253 /* MetrolinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDetailViewController.h; path = Soto.Katie_asgt4/MetrolinkDetailViewController.h; sourceTree = "<group>"; };
-		AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDetailViewController.m; path = Soto.Katie_asgt4/MetrolinkDetailViewController.m; sourceTree = "<group>"; };
 		AC8815561635EC5700141253 /* MetrolinkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDataSource.h; path = Soto.Katie_asgt4/MetrolinkDataSource.h; sourceTree = "<group>"; };
 		AC8815571635EC5700141253 /* MetrolinkDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDataSource.m; path = Soto.Katie_asgt4/MetrolinkDataSource.m; sourceTree = "<group>"; };
 		AC8815591635EF9100141253 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTADataSource.h; path = Soto.Katie_asgt4/OCTADataSource.h; sourceTree = "<group>"; };
 		AC88155A1635EF9100141253 /* OCTADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTADataSource.m; path = Soto.Katie_asgt4/OCTADataSource.m; sourceTree = "<group>"; };
 		AC88155C1635F01700141253 /* OCTATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableCell.h; path = Soto.Katie_asgt4/OCTATableCell.h; sourceTree = "<group>"; };
 		AC88155D1635F01700141253 /* OCTATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableCell.m; path = Soto.Katie_asgt4/OCTATableCell.m; sourceTree = "<group>"; };
-		CE8E1E2316372E8900DCB6CF /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestController.h; path = Soto.Katie_asgt4/TestController.h; sourceTree = "<group>"; };
-		CE8E1E2416372E8900DCB6CF /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestController.m; path = Soto.Katie_asgt4/TestController.m; sourceTree = "<group>"; };
-		CE8E1E27163734FA00DCB6CF /* MetrolinkLineDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkLineDetail.h; path = Soto.Katie_asgt4/MetrolinkLineDetail.h; sourceTree = "<group>"; };
-		CE8E1E28163734FB00DCB6CF /* MetrolinkLineDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkLineDetail.m; path = Soto.Katie_asgt4/MetrolinkLineDetail.m; sourceTree = "<group>"; };
+		CE8E1E2316372E8900DCB6CF /* MetrolinkLineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkLineList.h; path = Soto.Katie_asgt4/MetrolinkLineList.h; sourceTree = "<group>"; };
+		CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkLineList.m; path = Soto.Katie_asgt4/MetrolinkLineList.m; sourceTree = "<group>"; };
+		CE8E1E27163734FA00DCB6CF /* MetrolinkCityList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkCityList.h; path = Soto.Katie_asgt4/MetrolinkCityList.h; sourceTree = "<group>"; };
+		CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkCityList.m; path = Soto.Katie_asgt4/MetrolinkCityList.m; sourceTree = "<group>"; };
+		CE8E1E2F1637478F00DCB6CF /* MetrolinkTimesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkTimesList.h; path = Soto.Katie_asgt4/MetrolinkTimesList.h; sourceTree = "<group>"; };
+		CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkTimesList.m; path = Soto.Katie_asgt4/MetrolinkTimesList.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,8 +75,6 @@
 		CEDAA50416320EFB00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAA50616320EFB00FD3A25 /* Soto_Katie_asgt4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soto_Katie_asgt4Tests.h; sourceTree = "<group>"; };
 		CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soto_Katie_asgt4Tests.m; sourceTree = "<group>"; };
-		CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkTableController.h; path = Soto.Katie_asgt4/MetrolinkTableController.h; sourceTree = "<group>"; };
-		CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkTableController.m; path = Soto.Katie_asgt4/MetrolinkTableController.m; sourceTree = "<group>"; };
 		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableViewController.h; path = Soto.Katie_asgt4/OCTATableViewController.h; sourceTree = "<group>"; };
 		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableViewController.m; path = Soto.Katie_asgt4/OCTATableViewController.m; sourceTree = "<group>"; };
 		CEDAA52216321DAC00FD3A25 /* 12-6AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-6AM.png"; sourceTree = "<group>"; };
@@ -126,16 +123,14 @@
 		ACFDD3211635DB6D004F93E4 /* Metrolink */ = {
 			isa = PBXGroup;
 			children = (
-				CEDAA51116320FBA00FD3A25 /* MetrolinkTableController.h */,
-				CEDAA51216320FBA00FD3A25 /* MetrolinkTableController.m */,
-				AC88154C1635EA5300141253 /* MetrolinkDetailViewController.h */,
-				AC88154D1635EA5300141253 /* MetrolinkDetailViewController.m */,
 				AC8815561635EC5700141253 /* MetrolinkDataSource.h */,
 				AC8815571635EC5700141253 /* MetrolinkDataSource.m */,
-				CE8E1E2316372E8900DCB6CF /* TestController.h */,
-				CE8E1E2416372E8900DCB6CF /* TestController.m */,
-				CE8E1E27163734FA00DCB6CF /* MetrolinkLineDetail.h */,
-				CE8E1E28163734FB00DCB6CF /* MetrolinkLineDetail.m */,
+				CE8E1E2316372E8900DCB6CF /* MetrolinkLineList.h */,
+				CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */,
+				CE8E1E27163734FA00DCB6CF /* MetrolinkCityList.h */,
+				CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */,
+				CE8E1E2F1637478F00DCB6CF /* MetrolinkTimesList.h */,
+				CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */,
 			);
 			name = Metrolink;
 			sourceTree = "<group>";
@@ -349,14 +344,13 @@
 				CEDAA4E616320EFA00FD3A25 /* main.m in Sources */,
 				CEDAA4EA16320EFA00FD3A25 /* AppDelegate.m in Sources */,
 				CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */,
-				CEDAA51316320FBA00FD3A25 /* MetrolinkTableController.m in Sources */,
 				CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */,
-				AC88154E1635EA5300141253 /* MetrolinkDetailViewController.m in Sources */,
 				AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */,
 				AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */,
 				AC88155E1635F01800141253 /* OCTATableCell.m in Sources */,
-				CE8E1E2516372E8A00DCB6CF /* TestController.m in Sources */,
-				CE8E1E29163734FB00DCB6CF /* MetrolinkLineDetail.m in Sources */,
+				CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */,
+				CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */,
+				CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,21 +14,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uVc-uJ-nCs">
-                                <rect key="frame" x="112" y="222" width="97" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="MetroLink">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="LNd-6a-V0j" kind="modal" id="DT7-pa-ujU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pkt-17-vcA">
                                 <rect key="frame" x="124" y="290" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -45,10 +30,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dzt-oE-zNO">
-                                <rect key="frame" x="124" y="120" width="72" height="37"/>
+                                <rect key="frame" x="114" y="120" width="92" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="test">
+                                <state key="normal" title="Metrolink">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -87,11 +72,11 @@
             </objects>
             <point key="canvasLocation" x="-420" y="180"/>
         </scene>
-        <!--Test Controller - Metrolink Lines-->
+        <!--Metrolink Line List - Metrolink Lines-->
         <scene sceneID="oQI-NY-GzJ">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zxc-Au-gPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="BVP-BS-49R" customClass="TestController" sceneMemberID="viewController">
+                <viewController id="BVP-BS-49R" customClass="MetrolinkLineList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hIb-3i-8hj">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -129,111 +114,65 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="409" y="-401"/>
+            <point key="canvasLocation" x="717" y="-81"/>
         </scene>
-        <!--Metrolink Table Controller - Metrolink Trains-->
-        <scene sceneID="M2k-AT-iN2">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OvQ-CE-LUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController title="Metrolink Trains" id="LNd-6a-V0j" customClass="MetrolinkTableController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e5n-2R-jwo">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="metrolinkCell" id="IYG-8R-9AH">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
-                        <sections/>
-                        <connections>
-                            <outlet property="dataSource" destination="LNd-6a-V0j" id="mWe-Vv-5bn"/>
-                            <outlet property="delegate" destination="LNd-6a-V0j" id="rHY-uf-qAR"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="METROLINK" id="4tl-zQ-nTj">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="Dlx-dE-KCa"/>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
-                </tableViewController>
-            </objects>
-            <point key="canvasLocation" x="1108" y="214"/>
-        </scene>
-        <!--Metrolink Line Detail-->
+        <!--Metrolink City List - Cities-->
         <scene sceneID="iJl-ZH-Ish">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t7S-K7-qtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="DPU-qp-mm1" customClass="MetrolinkLineDetail" sceneMemberID="viewController">
+                <viewController id="DPU-qp-mm1" customClass="MetrolinkCityList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QEf-iv-Vqa">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="FbW-lz-4VA">
-                                <rect key="frame" x="139" y="74" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="h2a-cc-bVA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="metroCityCell" id="4RV-Mb-FsW">
+                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="QDP-ig-Rjz" kind="push" identifier="showMetroCityDetail" id="tYU-F1-qAV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="DPU-qp-mm1" id="DRz-cJ-Rkp"/>
+                                    <outlet property="delegate" destination="DPU-qp-mm1" id="A2v-gl-vZ0"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="01g-ey-QtR"/>
+                    <navigationItem key="navigationItem" title="Cities" id="01g-ey-QtR"/>
                     <connections>
-                        <outlet property="lineLabel" destination="FbW-lz-4VA" id="O3M-Kq-7Hd"/>
+                        <outlet property="tableView" destination="h2a-cc-bVA" id="5Ch-ha-TBz"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="809" y="-402"/>
+            <point key="canvasLocation" x="1117" y="-82"/>
         </scene>
-        <!--Metrolink Detail View Controller - Line Detail-->
-        <scene sceneID="SS1-ww-cIs">
+        <!--View Controller - Times-->
+        <scene sceneID="6tS-5i-na3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AFh-sA-vXm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="MDJ-EI-bPB" customClass="MetrolinkDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4x0-JD-CGC">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IN5-mS-Fm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="QDP-ig-Rjz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uf5-9B-hMZ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="JJ6-Td-PnZ">
-                                <rect key="frame" x="0.0" y="104" width="320" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="NSV-RC-7vu">
-                                <rect key="frame" x="0.0" y="139" width="320" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="yep-l1-4Sj">
-                                <rect key="frame" x="40" y="224" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Line Detail" id="AGc-9b-wP2"/>
-                    <connections>
-                        <outlet property="metroCity" destination="JJ6-Td-PnZ" id="Bu1-4J-loD"/>
-                        <outlet property="metroImage" destination="yep-l1-4Sj" id="Amk-yr-8wd"/>
-                        <outlet property="metroTime" destination="NSV-RC-7vu" id="9wu-n4-1uK"/>
-                        <outlet property="octaCity" destination="JJ6-Td-PnZ" id="23G-hr-ro6"/>
-                        <outlet property="octaImage" destination="yep-l1-4Sj" id="Mfy-aC-GgI"/>
-                        <outlet property="octaTime" destination="NSV-RC-7vu" id="uEO-ga-Nz3"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Times" id="Eyy-RW-fed"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1193" y="-401"/>
+            <point key="canvasLocation" x="1523" y="-81"/>
         </scene>
         <!--Table View Controller - OCTA Buses-->
         <scene sceneID="oDY-ZD-ylZ">
@@ -303,26 +242,21 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="593" y="522"/>
+            <point key="canvasLocation" x="717" y="570"/>
         </scene>
     </scenes>
     <classes>
-        <class className="MetrolinkDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkDetailViewController.h"/>
+        <class className="MetrolinkCityList" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkCityList.h"/>
             <relationships>
-                <relationship kind="outlet" name="metroCity" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="metroImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="metroTime" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>
-        <class className="MetrolinkLineDetail" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkLineDetail.h"/>
+        <class className="MetrolinkLineList" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkLineList.h"/>
             <relationships>
-                <relationship kind="outlet" name="lineLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
-        </class>
-        <class className="MetrolinkTableController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkTableController.h"/>
         </class>
         <class className="OCTATableCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableCell.h"/>
@@ -335,12 +269,6 @@
         </class>
         <class className="OCTATableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableViewController.h"/>
-        </class>
-        <class className="TestController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
         </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>

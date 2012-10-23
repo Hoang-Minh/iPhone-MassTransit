@@ -13,6 +13,15 @@
 		CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */; };
 		CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */; };
 		CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */; };
+		CE8E1E37163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */; };
+		CE8E1E39163753E700DCB6CF /* sysmapjune12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */; };
+		CE8E1E3E1637540C00DCB6CF /* 6-12AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */; };
+		CE8E1E3F1637540C00DCB6CF /* 6-12PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */; };
+		CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */; };
+		CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */; };
+		CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */; };
+		CE8E1E471637554700DCB6CF /* MetrolinkPDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */; };
+		CE8E1E4A1637567400DCB6CF /* MetrolinkPDFTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -27,10 +36,6 @@
 		CEDAA50516320EFB00FD3A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */; };
 		CEDAA50816320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */; };
 		CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA515163210E400FD3A25 /* OCTATableViewController.m */; };
-		CEDAA52616321DAC00FD3A25 /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52216321DAC00FD3A25 /* 12-6AM.png */; };
-		CEDAA52716321DAC00FD3A25 /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52316321DAC00FD3A25 /* 12-6PM.png */; };
-		CEDAA52816321DAC00FD3A25 /* 6-12AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52416321DAC00FD3A25 /* 6-12AM.png */; };
-		CEDAA52916321DAC00FD3A25 /* 6-12PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA52516321DAC00FD3A25 /* 6-12PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,18 @@
 		CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkCityList.m; path = Soto.Katie_asgt4/MetrolinkCityList.m; sourceTree = "<group>"; };
 		CE8E1E2F1637478F00DCB6CF /* MetrolinkTimesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkTimesList.h; path = Soto.Katie_asgt4/MetrolinkTimesList.h; sourceTree = "<group>"; };
 		CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkTimesList.m; path = Soto.Katie_asgt4/MetrolinkTimesList.m; sourceTree = "<group>"; };
+		CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Metrolink_All_Lines_timetable.pdf; path = Resources/Metrolink_All_Lines_timetable.pdf; sourceTree = "<group>"; };
+		CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sysmapjune12.pdf; path = Resources/sysmapjune12.pdf; sourceTree = "<group>"; };
+		CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6-12AM.png"; path = "Resources/images/6-12AM.png"; sourceTree = "<group>"; };
+		CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6-12PM.png"; path = "Resources/images/6-12PM.png"; sourceTree = "<group>"; };
+		CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-6AM.png"; path = "Resources/images/12-6AM.png"; sourceTree = "<group>"; };
+		CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-6PM.png"; path = "Resources/images/12-6PM.png"; sourceTree = "<group>"; };
+		CE8E1E421637550300DCB6CF /* MetrolinkPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFController.h; path = Soto.Katie_asgt4/MetrolinkPDFController.h; sourceTree = "<group>"; };
+		CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFController.m; path = Soto.Katie_asgt4/MetrolinkPDFController.m; sourceTree = "<group>"; };
+		CE8E1E451637554700DCB6CF /* MetrolinkPDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFScrollView.h; path = Soto.Katie_asgt4/MetrolinkPDFScrollView.h; sourceTree = "<group>"; };
+		CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFScrollView.m; path = Soto.Katie_asgt4/MetrolinkPDFScrollView.m; sourceTree = "<group>"; };
+		CE8E1E481637567400DCB6CF /* MetrolinkPDFTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFTiledView.h; path = Soto.Katie_asgt4/MetrolinkPDFTiledView.h; sourceTree = "<group>"; };
+		CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFTiledView.m; path = Soto.Katie_asgt4/MetrolinkPDFTiledView.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,10 +94,6 @@
 		CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soto_Katie_asgt4Tests.m; sourceTree = "<group>"; };
 		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableViewController.h; path = Soto.Katie_asgt4/OCTATableViewController.h; sourceTree = "<group>"; };
 		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableViewController.m; path = Soto.Katie_asgt4/OCTATableViewController.m; sourceTree = "<group>"; };
-		CEDAA52216321DAC00FD3A25 /* 12-6AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-6AM.png"; sourceTree = "<group>"; };
-		CEDAA52316321DAC00FD3A25 /* 12-6PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-6PM.png"; sourceTree = "<group>"; };
-		CEDAA52416321DAC00FD3A25 /* 6-12AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-12AM.png"; sourceTree = "<group>"; };
-		CEDAA52516321DAC00FD3A25 /* 6-12PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-12PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +144,12 @@
 				CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */,
 				CE8E1E2F1637478F00DCB6CF /* MetrolinkTimesList.h */,
 				CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */,
+				CE8E1E421637550300DCB6CF /* MetrolinkPDFController.h */,
+				CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */,
+				CE8E1E451637554700DCB6CF /* MetrolinkPDFScrollView.h */,
+				CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */,
+				CE8E1E481637567400DCB6CF /* MetrolinkPDFTiledView.h */,
+				CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */,
 			);
 			name = Metrolink;
 			sourceTree = "<group>";
@@ -191,6 +210,8 @@
 		CEDAA52016321D6500FD3A25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */,
+				CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */,
 				CEDAA52116321D7C00FD3A25 /* images */,
 			);
 			name = Resources;
@@ -199,10 +220,10 @@
 		CEDAA52116321D7C00FD3A25 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				CEDAA52216321DAC00FD3A25 /* 12-6AM.png */,
-				CEDAA52316321DAC00FD3A25 /* 12-6PM.png */,
-				CEDAA52416321DAC00FD3A25 /* 6-12AM.png */,
-				CEDAA52516321DAC00FD3A25 /* 6-12PM.png */,
+				CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */,
+				CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */,
+				CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */,
+				CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -303,10 +324,12 @@
 			files = (
 				CEDAA4E416320EFA00FD3A25 /* InfoPlist.strings in Resources */,
 				CEDAA4ED16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard in Resources */,
-				CEDAA52616321DAC00FD3A25 /* 12-6AM.png in Resources */,
-				CEDAA52716321DAC00FD3A25 /* 12-6PM.png in Resources */,
-				CEDAA52816321DAC00FD3A25 /* 6-12AM.png in Resources */,
-				CEDAA52916321DAC00FD3A25 /* 6-12PM.png in Resources */,
+				CE8E1E37163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf in Resources */,
+				CE8E1E39163753E700DCB6CF /* sysmapjune12.pdf in Resources */,
+				CE8E1E3E1637540C00DCB6CF /* 6-12AM.png in Resources */,
+				CE8E1E3F1637540C00DCB6CF /* 6-12PM.png in Resources */,
+				CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */,
+				CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +374,9 @@
 				CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */,
 				CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */,
 				CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */,
+				CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */,
+				CE8E1E471637554700DCB6CF /* MetrolinkPDFScrollView.m in Sources */,
+				CE8E1E4A1637567400DCB6CF /* MetrolinkPDFTiledView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

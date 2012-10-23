@@ -55,6 +55,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UtD-eF-mp2" kind="push" id="DbI-9f-A1z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1fv-ds-oUq">
                                 <rect key="frame" x="109" y="291" width="102" height="37"/>
@@ -138,7 +141,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="717" y="-81"/>
+            <point key="canvasLocation" x="709" y="-757"/>
         </scene>
         <!--Metrolink City List - Locations-->
         <scene sceneID="iJl-ZH-Ish">
@@ -181,7 +184,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1117" y="-82"/>
+            <point key="canvasLocation" x="1109" y="-758"/>
         </scene>
         <!--View Controller - Times & Details-->
         <scene sceneID="6tS-5i-na3">
@@ -205,7 +208,28 @@
                     <navigationItem key="navigationItem" title="Times &amp; Details" id="Eyy-RW-fed"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1523" y="-81"/>
+            <point key="canvasLocation" x="1515" y="-757"/>
+        </scene>
+        <!--MetrolinkPDF Controller - Metrolink PDF-->
+        <scene sceneID="J16-eE-RRw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8O-hb-XL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="UtD-eF-mp2" customClass="MetrolinkPDFController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ia3-eD-sHd">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LDM-iP-xaX" customClass="MetrolinkPDFScrollView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Metrolink PDF" id="5TO-CC-oW5"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="704" y="-103"/>
         </scene>
         <!--Table View Controller - OCTA Buses-->
         <scene sceneID="oDY-ZD-ylZ">
@@ -290,6 +314,12 @@
             <relationships>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
+        </class>
+        <class className="MetrolinkPDFController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkPDFController.h"/>
+        </class>
+        <class className="MetrolinkPDFScrollView" superclassName="UIScrollView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkPDFScrollView.h"/>
         </class>
         <class className="OCTATableCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableCell.h"/>

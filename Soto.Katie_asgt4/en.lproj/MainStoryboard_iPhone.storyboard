@@ -44,6 +44,21 @@
                                     <segue destination="8IX-TU-gkq" kind="modal" id="oUr-oJ-CBs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dzt-oE-zNO">
+                                <rect key="frame" x="124" y="120" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="test">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BVP-BS-49R" kind="push" id="gnu-cK-Lx8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -71,6 +86,32 @@
                 </navigationController>
             </objects>
             <point key="canvasLocation" x="-420" y="180"/>
+        </scene>
+        <!--Test Controller - Metrolink Lines-->
+        <scene sceneID="oQI-NY-GzJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxc-Au-gPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="BVP-BS-49R" customClass="TestController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hIb-3i-8hj">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jUW-EM-dLa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BVP-BS-49R" id="mAH-qQ-jY6"/>
+                                    <outlet property="delegate" destination="BVP-BS-49R" id="hCh-eG-QBR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Metrolink Lines" id="4Ke-0C-syR"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="409" y="-401"/>
         </scene>
         <!--Metrolink Table Controller - Metrolink Trains-->
         <scene sceneID="M2k-AT-iN2">
@@ -107,7 +148,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="588" y="-60"/>
+            <point key="canvasLocation" x="1114" y="-60"/>
         </scene>
         <!--Metrolink Detail View Controller-->
         <scene sceneID="SS1-ww-cIs">
@@ -150,7 +191,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1005" y="-60"/>
+            <point key="canvasLocation" x="1531" y="-60"/>
         </scene>
         <!--Table View Controller - OCTA Buses-->
         <scene sceneID="oDY-ZD-ylZ">
@@ -246,6 +287,9 @@
         </class>
         <class className="OCTATableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableViewController.h"/>
+        </class>
+        <class className="TestController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestController.h"/>
         </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>

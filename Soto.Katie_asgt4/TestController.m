@@ -15,6 +15,7 @@
 @implementation TestController
 
 @synthesize metroLinkLines;
+@synthesize tableView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -57,7 +58,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"metrolinkCell";
+    static NSString *CellIdentifier = @"metroLineCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     
@@ -66,14 +67,29 @@
     {
 		// Use the default cell style.
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-
+        cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
 	// Set up the cell.
 	cell.textLabel.text = [metroLinkLines objectAtIndex:indexPath.row];
-
+    cell.detailTextLabel.text = @"test";
+    
+    UIImage *theImage = [UIImage imageNamed:(@"12-6AM.png")];
+    cell.imageView.image = theImage;
     
     return cell;
+}
+
+/* RETRIEVED FROM APPCODA.COM */
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"showMetroLineDetail"])
+    {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        MetrolinkLineDetail *destViewController = segue.destinationViewController;
+        destViewController.lineName = [metroLinkLines objectAtIndex:indexPath.row];
+    }
 }
 
 @end

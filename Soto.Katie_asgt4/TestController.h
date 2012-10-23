@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MetrolinkLineDetail.h"
 
 @interface TestController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     NSArray *metroLinkLines;
+    IBOutlet UITableView *tableView;
 }
 
 @property (nonatomic, retain) NSArray *metroLinkLines;
+@property (nonatomic, retain) IBOutlet UITableView *tableView;
 
 @end

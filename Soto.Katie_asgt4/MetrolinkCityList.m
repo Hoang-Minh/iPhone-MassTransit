@@ -48,7 +48,28 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     //lineLabel.text = lineName;
-    metroLinkCities = self.metroData.metroAntelopeValleyCities;
+    if (lineName == @"Antelope Valley")
+    {
+        metroLinkCities = self.metroData.metroAntelopeValleyCities;
+    }else if (lineName == @"Burbank-Bob Hope Airport")
+    {
+        metroLinkCities = self.metroData.metroBurbankCities;
+    }else if (lineName == @"Inland Empire - Orange County")
+    {
+        metroLinkCities = self.metroData.metroInlandCities;
+    }else if (lineName == @"Riverside")
+    {
+        metroLinkCities = self.metroData.metroRiversideCities;
+    }else if (lineName == @"San Bernardino")
+    {
+        metroLinkCities = self.metroData.metroSanBernardinoCities;
+    }else if (lineName == @"Ventura County")
+    {
+        metroLinkCities = self.metroData.metroVenturaCities;
+    }else if (lineName == @"91 Line")
+    {
+        metroLinkCities = self.metroData.metro91Cities;
+    }
     
 }
 

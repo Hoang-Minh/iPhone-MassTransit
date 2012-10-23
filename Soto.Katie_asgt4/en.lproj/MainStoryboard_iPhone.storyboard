@@ -15,10 +15,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pkt-17-vcA">
-                                <rect key="frame" x="124" y="290" width="72" height="37"/>
+                                <rect key="frame" x="87" y="246" width="146" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="OCTA">
+                                <state key="normal" title="OCTA Schedules">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -30,10 +30,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dzt-oE-zNO">
-                                <rect key="frame" x="114" y="120" width="92" height="37"/>
+                                <rect key="frame" x="75" y="50" width="171" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Metrolink">
+                                <state key="normal" title="Metrolink Schedules">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,6 +43,30 @@
                                 <connections>
                                     <segue destination="BVP-BS-49R" kind="push" id="gnu-cK-Lx8"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ao2-Rf-Omo">
+                                <rect key="frame" x="96" y="95" width="128" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Metrolink Map">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1fv-ds-oUq">
+                                <rect key="frame" x="109" y="291" width="102" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="OCTA Map">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -116,7 +140,7 @@
             </objects>
             <point key="canvasLocation" x="717" y="-81"/>
         </scene>
-        <!--Metrolink City List - Cities-->
+        <!--Metrolink City List - Locations-->
         <scene sceneID="iJl-ZH-Ish">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t7S-K7-qtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +175,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Cities" id="01g-ey-QtR"/>
+                    <navigationItem key="navigationItem" title="Locations" id="01g-ey-QtR"/>
                     <connections>
                         <outlet property="tableView" destination="h2a-cc-bVA" id="5Ch-ha-TBz"/>
                     </connections>
@@ -159,7 +183,7 @@
             </objects>
             <point key="canvasLocation" x="1117" y="-82"/>
         </scene>
-        <!--View Controller - Times-->
+        <!--View Controller - Times & Details-->
         <scene sceneID="6tS-5i-na3">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IN5-mS-Fm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -167,9 +191,18 @@
                     <view key="view" contentMode="scaleToFill" id="uf5-9B-hMZ">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="TODO: Display Time PDF Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="yG1-oN-eAP">
+                                <rect key="frame" x="20" y="105" width="286" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Times" id="Eyy-RW-fed"/>
+                    <navigationItem key="navigationItem" title="Times &amp; Details" id="Eyy-RW-fed"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1523" y="-81"/>

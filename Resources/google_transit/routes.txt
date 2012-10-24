@@ -52,7 +52,7 @@
 187,1,"187","Laguna Hills-Dana Point via El Toro/Aliso Creek",,3,"http://www.octa.net/pdf/pdf/june12/route187.pdf","ce57a0",
 188,1,"188","Laguna Hills to Irvine",,3,"http://www.octa.net/pdf/pdf/june12/route188.pdf","ce57a0",
 191,1,"191","San Clemente - Mission Viejo",,3,"http://www.octa.net/pdf/pdf/june12/route191.pdf","ce57a0",
-193,1,"193","Los Mares, Vera Cruz, Pico",,3,"http://www.octa.net/pdf/pdf/june12/route193.pdf","ce57a0",
+193,1,"193","Los Mares Vera Cruz Pico",,3,"http://www.octa.net/pdf/pdf/june12/route193.pdf","ce57a0",
 206,1,"206","Santa Ana - Lake Forest",,3,"http://www.octa.net/pdf/pdf/june12/route206.pdf","fcb64c",
 211,1,"211","Seal Beach - Irvine",,3,"http://www.octa.net/pdf/pdf/june12/route211.pdf","fcb64c",
 212,1,"212","San Juan Capistrano PNR - Irvine",,3,"http://www.octa.net/pdf/pdf/june12/route212.pdf","fcb64c",

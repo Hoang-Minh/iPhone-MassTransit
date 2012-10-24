@@ -44,8 +44,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    octaRoutes = self.octaData.octaRoutes;
+    
+        //octaRoutes = self.octaData.octaRoutes;
+    
+    //list contains the routes listed in routes.txt.
+    octaRoutes = self.octaData.octaRoutesFull;
 }
 
 //***********************************************

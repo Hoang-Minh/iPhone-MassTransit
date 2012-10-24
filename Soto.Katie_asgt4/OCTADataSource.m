@@ -37,7 +37,7 @@
         //...
         //The following loop will extract the needed elements and put them in 2 different corresponding arrays.
         int i = 12;
-        while(i<670)
+        while(i<690)
         {
             if([arrayNewLines objectAtIndex:i])
             {
@@ -51,8 +51,10 @@
             if([arrayNewLines objectAtIndex:i])
             {
                 //PDF NAMES
-                //NSLog(@"\n %d: %@", i, [arrayNewLines objectAtIndex:i]);
-                [self.octaPDFsFull addObject:[arrayNewLines objectAtIndex:i]];
+                //first strip it of the extra quotations:
+                cleanedString = [[arrayNewLines objectAtIndex:i] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"\""]];
+                //now put the cleaned string in the routes array
+                [self.octaPDFsFull addObject:cleanedString];
             }
             i=i+6;
         }

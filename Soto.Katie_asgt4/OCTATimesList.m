@@ -45,7 +45,6 @@
 {
     [super viewDidLoad];
 	
-    
     octaTimes = [[NSArray alloc]
                  initWithObjects:@"1:30pm",
                  @"2:30pm",

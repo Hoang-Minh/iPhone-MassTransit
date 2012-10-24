@@ -20,8 +20,8 @@
 		CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */; };
 		CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */; };
 		CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */; };
-		CE8E1E471637554700DCB6CF /* MetrolinkPDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */; };
-		CE8E1E4A1637567400DCB6CF /* MetrolinkPDFTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */; };
+		CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */; };
+		CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E501637674D00DCB6CF /* TiledPDFView.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -69,10 +69,10 @@
 		CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-6PM.png"; path = "Resources/images/12-6PM.png"; sourceTree = "<group>"; };
 		CE8E1E421637550300DCB6CF /* MetrolinkPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFController.h; path = Soto.Katie_asgt4/MetrolinkPDFController.h; sourceTree = "<group>"; };
 		CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFController.m; path = Soto.Katie_asgt4/MetrolinkPDFController.m; sourceTree = "<group>"; };
-		CE8E1E451637554700DCB6CF /* MetrolinkPDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFScrollView.h; path = Soto.Katie_asgt4/MetrolinkPDFScrollView.h; sourceTree = "<group>"; };
-		CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFScrollView.m; path = Soto.Katie_asgt4/MetrolinkPDFScrollView.m; sourceTree = "<group>"; };
-		CE8E1E481637567400DCB6CF /* MetrolinkPDFTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFTiledView.h; path = Soto.Katie_asgt4/MetrolinkPDFTiledView.h; sourceTree = "<group>"; };
-		CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFTiledView.m; path = Soto.Katie_asgt4/MetrolinkPDFTiledView.m; sourceTree = "<group>"; };
+		CE8E1E4C1637673200DCB6CF /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFScrollView.h; path = Soto.Katie_asgt4/PDFScrollView.h; sourceTree = "<group>"; };
+		CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFScrollView.m; path = Soto.Katie_asgt4/PDFScrollView.m; sourceTree = "<group>"; };
+		CE8E1E4F1637674D00DCB6CF /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiledPDFView.h; path = Soto.Katie_asgt4/TiledPDFView.h; sourceTree = "<group>"; };
+		CE8E1E501637674D00DCB6CF /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiledPDFView.m; path = Soto.Katie_asgt4/TiledPDFView.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,17 +146,25 @@
 				CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */,
 				CE8E1E421637550300DCB6CF /* MetrolinkPDFController.h */,
 				CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */,
-				CE8E1E451637554700DCB6CF /* MetrolinkPDFScrollView.h */,
-				CE8E1E461637554700DCB6CF /* MetrolinkPDFScrollView.m */,
-				CE8E1E481637567400DCB6CF /* MetrolinkPDFTiledView.h */,
-				CE8E1E491637567400DCB6CF /* MetrolinkPDFTiledView.m */,
 			);
 			name = Metrolink;
+			sourceTree = "<group>";
+		};
+		CE8E1E4B163766FD00DCB6CF /* PDF Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E1E4C1637673200DCB6CF /* PDFScrollView.h */,
+				CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */,
+				CE8E1E4F1637674D00DCB6CF /* TiledPDFView.h */,
+				CE8E1E501637674D00DCB6CF /* TiledPDFView.m */,
+			);
+			name = "PDF Helpers";
 			sourceTree = "<group>";
 		};
 		CEDAA4CA16320EF900FD3A25 = {
 			isa = PBXGroup;
 			children = (
+				CE8E1E4B163766FD00DCB6CF /* PDF Helpers */,
 				ACFDD3211635DB6D004F93E4 /* Metrolink */,
 				ACFDD2FE1635D3D6004F93E4 /* OCTA */,
 				CEDAA52A16321DDA00FD3A25 /* Main Files */,
@@ -375,8 +383,8 @@
 				CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */,
 				CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */,
 				CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */,
-				CE8E1E471637554700DCB6CF /* MetrolinkPDFScrollView.m in Sources */,
-				CE8E1E4A1637567400DCB6CF /* MetrolinkPDFTiledView.m in Sources */,
+				CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */,
+				CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

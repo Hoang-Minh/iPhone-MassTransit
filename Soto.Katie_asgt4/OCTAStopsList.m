@@ -7,7 +7,6 @@
 //
 
 #import "OCTAStopsList.h"
-#import "OCTATimesList.h"
 
 @interface OCTAStopsList ()
 
@@ -19,6 +18,8 @@
 @synthesize tableView;
 @synthesize octaData = _octaData;
 @synthesize octaStops;
+@synthesize selectedIndex;
+@synthesize pdfUrlLabel;
 
 //***********************************************
 //if a null pointer, we need to initalize it
@@ -47,13 +48,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    if(routeName == @"59")
-    {
-        octaStops = [[NSArray alloc]
-                     initWithObjects:@"one",
-                     @"two",
-                     @"three", nil];
-    }
+    NSLog(@"\npdf can be viewed at: %@", [self.octaData.octaPDFsFull objectAtIndex:self.selectedIndex]);
+    self.pdfUrlLabel.text = [self.octaData.octaPDFsFull objectAtIndex:self.selectedIndex];
     
 }
 
@@ -71,58 +67,7 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-//***********************************************
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    // Return the number of sections.
-    return 1;
-}
 
-//***********************************************
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    // Return the number of rows in the section.
-    return [octaStops count];
-}
-//
-//***********************************************
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"octaStopCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
-    
-    // If no cell is available, create a new one using the given identifier.
-	if (cell == nil)
-    {
-		// Use the default cell style.
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-        cell.selectionStyle = UITableViewCellSelectionStyleBlue;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    }
-    
-	// Set up the cell.
-	cell.textLabel.text = [octaStops objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"test";
-    
-    UIImage *theImage = [UIImage imageNamed:(@"12-6AM.png")];
-    cell.imageView.image = theImage;
-    
-    return cell;
-}
-
-//***********************************************
-/* RETRIEVED FROM APPCODA.COM */
-
- - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
-     if ([segue.identifier isEqualToString:@"showOctaStopDetail"])
-     {
-            NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-            OCTATimesList *destViewController = segue.destinationViewController;
-            destViewController.stopName = [octaStops objectAtIndex:indexPath.row];
-     }
- }
  
 @end
 

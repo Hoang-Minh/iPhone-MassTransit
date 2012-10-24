@@ -20,6 +20,7 @@
                            @"57",
                            @"42", nil];
         self.octaRoutesFull = [[NSMutableArray alloc] init];
+        self.octaPDFsFull = [[NSMutableArray alloc] init];
         
 //GET ROUTE NAMES AND PDF URLS FROM THE TEXT FILE:
         //open the "routes" file...
@@ -36,8 +37,9 @@
         //24
         //...
         //The following loop will extract the needed elements and put them in 2 different corresponding arrays.
+        NSLog(@"count: %u", [arrayNewLines count]);
         int i = 12;
-        while(i<690)
+        while(i<694)
         {
             if([arrayNewLines objectAtIndex:i])
             {
@@ -58,10 +60,6 @@
             }
             i=i+6;
         }
-        
-        NSLog(@"%@", self.octaPDFsFull);
-        
-        
     }
     return self;
 }

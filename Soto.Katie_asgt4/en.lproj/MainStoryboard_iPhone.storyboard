@@ -274,7 +274,7 @@
             </objects>
             <point key="canvasLocation" x="707" y="501"/>
         </scene>
-        <!--Stops List - Stops-->
+        <!--Stops List - Stops & Times-->
         <scene sceneID="Ckh-59-TKn">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IW3-k4-ubj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -283,79 +283,30 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="qrG-yB-pjd">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="octaStopCell" id="xaM-mN-GfS">
-                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <segue destination="LPN-xm-TtB" kind="push" identifier="showOctaStopDetail" id="NiJ-i9-PTN"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="BAZ-lR-BSn" id="1YO-Uc-nea"/>
-                                    <outlet property="delegate" destination="BAZ-lR-BSn" id="cgy-wo-VWm"/>
-                                </connections>
-                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PDF CAN BE VIEWED AT:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="2sf-5s-z4a">
+                                <rect key="frame" x="20" y="63" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PDF URL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="iVn-e9-WbF">
+                                <rect key="frame" x="20" y="102" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Stops" id="o8Y-GJ-g3r"/>
+                    <navigationItem key="navigationItem" title="Stops &amp; Times" id="o8Y-GJ-g3r"/>
                     <connections>
-                        <outlet property="tableView" destination="qrG-yB-pjd" id="6PF-xh-wrT"/>
+                        <outlet property="pdfUrlLabel" destination="iVn-e9-WbF" id="bIw-sR-3Ln"/>
                     </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1189" y="505"/>
-        </scene>
-        <!--Times List - Times-->
-        <scene sceneID="SFh-4b-Pgh">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NOm-nn-Bfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="LPN-xm-TtB" customClass="OCTATimesList" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2Gz-2Z-iz7">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jqo-QR-oSH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="octaTimeCell" id="lVK-Jf-OSZ">
-                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="LPN-xm-TtB" id="AnZ-n1-gwc"/>
-                                    <outlet property="delegate" destination="LPN-xm-TtB" id="Mgd-b8-Ru4"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Times" id="9ME-DR-9zA"/>
-                    <connections>
-                        <outlet property="tableView" destination="jqo-QR-oSH" id="b8s-K1-ExO"/>
-                    </connections>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1613" y="505"/>
         </scene>
     </scenes>
     <classes>
@@ -383,12 +334,7 @@
         <class className="OCTAStopsList" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTAStopsList.h"/>
             <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="OCTATimesList" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATimesList.h"/>
-            <relationships>
+                <relationship kind="outlet" name="pdfUrlLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>

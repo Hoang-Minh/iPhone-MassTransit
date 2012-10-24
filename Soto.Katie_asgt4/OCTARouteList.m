@@ -113,6 +113,7 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         OCTAStopsList *destViewController = segue.destinationViewController;
         destViewController.routeName = [octaRoutes objectAtIndex:indexPath.row];
+        destViewController.selectedIndex = indexPath.row;
     }
 }
 

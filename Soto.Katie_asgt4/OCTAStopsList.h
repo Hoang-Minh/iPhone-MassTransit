@@ -9,18 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "OCTADataSource.h"
 
-@interface OCTAStopsList : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface OCTAStopsList : UIViewController
 {
     NSString* routeName;
     IBOutlet UITableView *tableView;
     OCTADataSource *_octaData;
     NSArray *octaStops;
+    int selectedIndex;
+    IBOutlet UILabel *pdfUrlLabel;
 }
 
 @property (nonatomic, retain) NSString* routeName;
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) OCTADataSource *octaData;
 @property (nonatomic, retain) NSArray *octaStops;
+@property (assign) int selectedIndex;
+@property (nonatomic, retain) IBOutlet UILabel *pdfUrlLabel;
 
 
 @end

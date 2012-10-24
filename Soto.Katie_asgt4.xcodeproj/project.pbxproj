@@ -34,7 +34,6 @@
 		CE8E1E681637755A00DCB6CF /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5E1637755A00DCB6CF /* trips.txt */; };
 		CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */; };
 		CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */; };
-		CE8E1E7116377A7600DCB6CF /* OCTATimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -98,8 +97,6 @@
 		CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTARouteList.m; path = Soto.Katie_asgt4/OCTARouteList.m; sourceTree = "<group>"; };
 		CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAStopsList.h; path = Soto.Katie_asgt4/OCTAStopsList.h; sourceTree = "<group>"; };
 		CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAStopsList.m; path = Soto.Katie_asgt4/OCTAStopsList.m; sourceTree = "<group>"; };
-		CE8E1E6F16377A7600DCB6CF /* OCTATimesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATimesList.h; path = Soto.Katie_asgt4/OCTATimesList.h; sourceTree = "<group>"; };
-		CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATimesList.m; path = Soto.Katie_asgt4/OCTATimesList.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -155,8 +152,6 @@
 				CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */,
 				CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */,
 				CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */,
-				CE8E1E6F16377A7600DCB6CF /* OCTATimesList.h */,
-				CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */,
 			);
 			name = OCTA;
 			sourceTree = "<group>";
@@ -443,7 +438,6 @@
 				CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */,
 				CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */,
 				CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */,
-				CE8E1E7116377A7600DCB6CF /* OCTATimesList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

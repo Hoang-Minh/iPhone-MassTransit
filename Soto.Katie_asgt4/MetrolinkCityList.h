@@ -11,14 +11,12 @@
 
 @interface MetrolinkCityList : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
-    //UILabel *lineLabel;
     NSString *lineName;
     IBOutlet UITableView *tableView;
     MetrolinkDataSource *_metroData;
     NSArray *metroLinkCities;
 }
 
-//@property (nonatomic, strong) IBOutlet UILabel *lineLabel;
 @property (nonatomic, strong) NSString *lineName;
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) MetrolinkDataSource *metroData;

@@ -14,7 +14,6 @@
 
 @implementation MetrolinkCityList
 
-//@synthesize lineLabel;
 @synthesize lineName;
 @synthesize tableView;
 @synthesize metroData = _metroData;

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
 		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
-		AC88155E1635F01800141253 /* OCTATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155D1635F01700141253 /* OCTATableCell.m */; };
 		CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */; };
 		CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E28163734FB00DCB6CF /* MetrolinkCityList.m */; };
 		CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */; };
@@ -23,6 +22,19 @@
 		CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */; };
 		CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E501637674D00DCB6CF /* TiledPDFView.m */; };
 		CE8E1E531637700C00DCB6CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1E521637700C00DCB6CF /* QuartzCore.framework */; };
+		CE8E1E5F1637755A00DCB6CF /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E551637755A00DCB6CF /* agency.txt */; };
+		CE8E1E601637755A00DCB6CF /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E561637755A00DCB6CF /* calendar.txt */; };
+		CE8E1E611637755A00DCB6CF /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E571637755A00DCB6CF /* calendar_dates.txt */; };
+		CE8E1E621637755A00DCB6CF /* fare_attributes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E581637755A00DCB6CF /* fare_attributes.txt */; };
+		CE8E1E631637755A00DCB6CF /* fare_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E591637755A00DCB6CF /* fare_rules.txt */; };
+		CE8E1E641637755A00DCB6CF /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5A1637755A00DCB6CF /* routes.txt */; };
+		CE8E1E651637755A00DCB6CF /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5B1637755A00DCB6CF /* shapes.txt */; };
+		CE8E1E661637755A00DCB6CF /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5C1637755A00DCB6CF /* stop_times.txt */; };
+		CE8E1E671637755A00DCB6CF /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5D1637755A00DCB6CF /* stops.txt */; };
+		CE8E1E681637755A00DCB6CF /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5E1637755A00DCB6CF /* trips.txt */; };
+		CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */; };
+		CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */; };
+		CE8E1E7116377A7600DCB6CF /* OCTATimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -36,7 +48,6 @@
 		CEDAA4FD16320EFA00FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA50516320EFB00FD3A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAA50316320EFB00FD3A25 /* InfoPlist.strings */; };
 		CEDAA50816320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */; };
-		CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAA515163210E400FD3A25 /* OCTATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +65,6 @@
 		AC8815571635EC5700141253 /* MetrolinkDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDataSource.m; path = Soto.Katie_asgt4/MetrolinkDataSource.m; sourceTree = "<group>"; };
 		AC8815591635EF9100141253 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTADataSource.h; path = Soto.Katie_asgt4/OCTADataSource.h; sourceTree = "<group>"; };
 		AC88155A1635EF9100141253 /* OCTADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTADataSource.m; path = Soto.Katie_asgt4/OCTADataSource.m; sourceTree = "<group>"; };
-		AC88155C1635F01700141253 /* OCTATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableCell.h; path = Soto.Katie_asgt4/OCTATableCell.h; sourceTree = "<group>"; };
-		AC88155D1635F01700141253 /* OCTATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableCell.m; path = Soto.Katie_asgt4/OCTATableCell.m; sourceTree = "<group>"; };
 		CE8E1E2316372E8900DCB6CF /* MetrolinkLineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkLineList.h; path = Soto.Katie_asgt4/MetrolinkLineList.h; sourceTree = "<group>"; };
 		CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkLineList.m; path = Soto.Katie_asgt4/MetrolinkLineList.m; sourceTree = "<group>"; };
 		CE8E1E27163734FA00DCB6CF /* MetrolinkCityList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkCityList.h; path = Soto.Katie_asgt4/MetrolinkCityList.h; sourceTree = "<group>"; };
@@ -75,6 +84,22 @@
 		CE8E1E4F1637674D00DCB6CF /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiledPDFView.h; path = Soto.Katie_asgt4/TiledPDFView.h; sourceTree = "<group>"; };
 		CE8E1E501637674D00DCB6CF /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiledPDFView.m; path = Soto.Katie_asgt4/TiledPDFView.m; sourceTree = "<group>"; };
 		CE8E1E521637700C00DCB6CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE8E1E551637755A00DCB6CF /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		CE8E1E561637755A00DCB6CF /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		CE8E1E571637755A00DCB6CF /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		CE8E1E581637755A00DCB6CF /* fare_attributes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fare_attributes.txt; sourceTree = "<group>"; };
+		CE8E1E591637755A00DCB6CF /* fare_rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fare_rules.txt; sourceTree = "<group>"; };
+		CE8E1E5A1637755A00DCB6CF /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		CE8E1E5B1637755A00DCB6CF /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		CE8E1E5C1637755A00DCB6CF /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		CE8E1E5D1637755A00DCB6CF /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		CE8E1E5E1637755A00DCB6CF /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		CE8E1E691637772000DCB6CF /* OCTARouteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTARouteList.h; path = Soto.Katie_asgt4/OCTARouteList.h; sourceTree = "<group>"; };
+		CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTARouteList.m; path = Soto.Katie_asgt4/OCTARouteList.m; sourceTree = "<group>"; };
+		CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAStopsList.h; path = Soto.Katie_asgt4/OCTAStopsList.h; sourceTree = "<group>"; };
+		CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAStopsList.m; path = Soto.Katie_asgt4/OCTAStopsList.m; sourceTree = "<group>"; };
+		CE8E1E6F16377A7600DCB6CF /* OCTATimesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATimesList.h; path = Soto.Katie_asgt4/OCTATimesList.h; sourceTree = "<group>"; };
+		CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATimesList.m; path = Soto.Katie_asgt4/OCTATimesList.m; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,8 +119,6 @@
 		CEDAA50416320EFB00FD3A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAA50616320EFB00FD3A25 /* Soto_Katie_asgt4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soto_Katie_asgt4Tests.h; sourceTree = "<group>"; };
 		CEDAA50716320EFB00FD3A25 /* Soto_Katie_asgt4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soto_Katie_asgt4Tests.m; sourceTree = "<group>"; };
-		CEDAA514163210E400FD3A25 /* OCTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTATableViewController.h; path = Soto.Katie_asgt4/OCTATableViewController.h; sourceTree = "<group>"; };
-		CEDAA515163210E400FD3A25 /* OCTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTATableViewController.m; path = Soto.Katie_asgt4/OCTATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +149,14 @@
 		ACFDD2FE1635D3D6004F93E4 /* OCTA */ = {
 			isa = PBXGroup;
 			children = (
-				CEDAA514163210E400FD3A25 /* OCTATableViewController.h */,
-				CEDAA515163210E400FD3A25 /* OCTATableViewController.m */,
-				AC88155C1635F01700141253 /* OCTATableCell.h */,
-				AC88155D1635F01700141253 /* OCTATableCell.m */,
 				AC8815591635EF9100141253 /* OCTADataSource.h */,
 				AC88155A1635EF9100141253 /* OCTADataSource.m */,
+				CE8E1E691637772000DCB6CF /* OCTARouteList.h */,
+				CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */,
+				CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */,
+				CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */,
+				CE8E1E6F16377A7600DCB6CF /* OCTATimesList.h */,
+				CE8E1E7016377A7600DCB6CF /* OCTATimesList.m */,
 			);
 			name = OCTA;
 			sourceTree = "<group>";
@@ -162,6 +187,24 @@
 				CE8E1E501637674D00DCB6CF /* TiledPDFView.m */,
 			);
 			name = "PDF Helpers";
+			sourceTree = "<group>";
+		};
+		CE8E1E541637755A00DCB6CF /* google_transit */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E1E551637755A00DCB6CF /* agency.txt */,
+				CE8E1E561637755A00DCB6CF /* calendar.txt */,
+				CE8E1E571637755A00DCB6CF /* calendar_dates.txt */,
+				CE8E1E581637755A00DCB6CF /* fare_attributes.txt */,
+				CE8E1E591637755A00DCB6CF /* fare_rules.txt */,
+				CE8E1E5A1637755A00DCB6CF /* routes.txt */,
+				CE8E1E5B1637755A00DCB6CF /* shapes.txt */,
+				CE8E1E5C1637755A00DCB6CF /* stop_times.txt */,
+				CE8E1E5D1637755A00DCB6CF /* stops.txt */,
+				CE8E1E5E1637755A00DCB6CF /* trips.txt */,
+			);
+			name = google_transit;
+			path = Resources/google_transit;
 			sourceTree = "<group>";
 		};
 		CEDAA4CA16320EF900FD3A25 = {
@@ -225,6 +268,7 @@
 				CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */,
 				CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */,
 				CEDAA52116321D7C00FD3A25 /* images */,
+				CE8E1E541637755A00DCB6CF /* google_transit */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -342,6 +386,16 @@
 				CE8E1E3F1637540C00DCB6CF /* 6-12PM.png in Resources */,
 				CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */,
 				CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */,
+				CE8E1E5F1637755A00DCB6CF /* agency.txt in Resources */,
+				CE8E1E601637755A00DCB6CF /* calendar.txt in Resources */,
+				CE8E1E611637755A00DCB6CF /* calendar_dates.txt in Resources */,
+				CE8E1E621637755A00DCB6CF /* fare_attributes.txt in Resources */,
+				CE8E1E631637755A00DCB6CF /* fare_rules.txt in Resources */,
+				CE8E1E641637755A00DCB6CF /* routes.txt in Resources */,
+				CE8E1E651637755A00DCB6CF /* shapes.txt in Resources */,
+				CE8E1E661637755A00DCB6CF /* stop_times.txt in Resources */,
+				CE8E1E671637755A00DCB6CF /* stops.txt in Resources */,
+				CE8E1E681637755A00DCB6CF /* trips.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,16 +433,17 @@
 				CEDAA4E616320EFA00FD3A25 /* main.m in Sources */,
 				CEDAA4EA16320EFA00FD3A25 /* AppDelegate.m in Sources */,
 				CEDAA4F316320EFA00FD3A25 /* ViewController.m in Sources */,
-				CEDAA516163210E400FD3A25 /* OCTATableViewController.m in Sources */,
 				AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */,
 				AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */,
-				AC88155E1635F01800141253 /* OCTATableCell.m in Sources */,
 				CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */,
 				CE8E1E29163734FB00DCB6CF /* MetrolinkCityList.m in Sources */,
 				CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */,
 				CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */,
 				CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */,
 				CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */,
+				CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */,
+				CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */,
+				CE8E1E7116377A7600DCB6CF /* OCTATimesList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

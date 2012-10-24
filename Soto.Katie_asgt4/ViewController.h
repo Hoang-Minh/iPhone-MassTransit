@@ -7,16 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OCTATableViewController.h"
 
 @interface ViewController : UIViewController
 {
 
-    
-    //Maybe I need to add some of these to get the navigation bar working:
-    //UINavigationBar
-    //UINavigationItem
-    //UINavigationController
+
 }
 
 

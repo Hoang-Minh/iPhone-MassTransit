@@ -22,6 +22,7 @@
 		CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */; };
 		CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */; };
 		CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E501637674D00DCB6CF /* TiledPDFView.m */; };
+		CE8E1E531637700C00DCB6CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1E521637700C00DCB6CF /* QuartzCore.framework */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -73,6 +74,7 @@
 		CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFScrollView.m; path = Soto.Katie_asgt4/PDFScrollView.m; sourceTree = "<group>"; };
 		CE8E1E4F1637674D00DCB6CF /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiledPDFView.h; path = Soto.Katie_asgt4/TiledPDFView.h; sourceTree = "<group>"; };
 		CE8E1E501637674D00DCB6CF /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiledPDFView.m; path = Soto.Katie_asgt4/TiledPDFView.m; sourceTree = "<group>"; };
+		CE8E1E521637700C00DCB6CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +106,7 @@
 				CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */,
 				CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */,
 				CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */,
+				CE8E1E531637700C00DCB6CF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +194,7 @@
 				CEDAA4D916320EF900FD3A25 /* UIKit.framework */,
 				CEDAA4DB16320EF900FD3A25 /* Foundation.framework */,
 				CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */,
+				CE8E1E521637700C00DCB6CF /* QuartzCore.framework */,
 				CEDAA4FA16320EFA00FD3A25 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;

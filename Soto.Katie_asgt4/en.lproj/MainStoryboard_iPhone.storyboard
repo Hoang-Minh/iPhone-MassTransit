@@ -56,7 +56,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UtD-eF-mp2" kind="push" id="DbI-9f-A1z"/>
+                                    <segue destination="UtD-eF-mp2" kind="push" id="8Yx-VM-xGR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1fv-ds-oUq">
@@ -302,41 +302,6 @@
             <point key="canvasLocation" x="717" y="570"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="MetrolinkCityList" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkCityList.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="MetrolinkLineList" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkLineList.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="MetrolinkPDFController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetrolinkPDFController.h"/>
-        </class>
-        <class className="OCTATableCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="octaCity" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="octaImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="octaService" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="octaTime" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="OCTATableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTATableViewController.h"/>
-        </class>
-        <class className="PDFScrollView" superclassName="UIScrollView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PDFScrollView.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

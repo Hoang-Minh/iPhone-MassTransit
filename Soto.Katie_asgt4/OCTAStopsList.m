@@ -7,6 +7,7 @@
 //
 
 #import "OCTAStopsList.h"
+#import "OCTAWebPDFController.h"
 
 @interface OCTAStopsList ()
 
@@ -14,7 +15,6 @@
 
 @implementation OCTAStopsList
 
-@synthesize routeName;
 @synthesize tableView;
 @synthesize octaData = _octaData;
 @synthesize octaStops;
@@ -65,6 +65,17 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+//***********************************************
+/* RETRIEVED FROM APPCODA.COM */
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"viewOCTAWebPDF"])
+    {
+        OCTAWebPDFController *destViewController = segue.destinationViewController;
+        destViewController.selectedIndex = self.selectedIndex;
+    }
 }
 
 

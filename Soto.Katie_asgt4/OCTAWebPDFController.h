@@ -7,12 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OCTADataSource.h"
 
 @interface OCTAWebPDFController : UIViewController
 {
     IBOutlet UIWebView *webView;
+    int selectedIndex;
+    OCTADataSource *_octaData;
 }
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (assign) int selectedIndex;
+@property (nonatomic, retain) OCTADataSource *octaData;
+
+
+
 
 @end

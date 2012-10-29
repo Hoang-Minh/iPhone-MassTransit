@@ -11,7 +11,6 @@
 
 @interface OCTAStopsList : UIViewController
 {
-    NSString* routeName;
     IBOutlet UITableView *tableView;
     OCTADataSource *_octaData;
     NSArray *octaStops;
@@ -19,7 +18,6 @@
     IBOutlet UILabel *pdfUrlLabel;
 }
 
-@property (nonatomic, retain) NSString* routeName;
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) OCTADataSource *octaData;
 @property (nonatomic, retain) NSArray *octaStops;

@@ -307,6 +307,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YgR-oK-lOm">
+                                <rect key="frame" x="68" y="156" width="184" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="CLICK HERE TO VIEW">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="irA-Hl-b9s" kind="push" id="X57-qP-vrD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -317,6 +332,24 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1189" y="505"/>
+        </scene>
+        <!--WebPDF Controller-->
+        <scene sceneID="Jt9-A9-qg1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ky0-br-5Bo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="irA-Hl-b9s" customClass="OCTAWebPDFController" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="WV6-bR-g5u">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
+                    <navigationItem key="navigationItem" id="7ei-Cg-soZ"/>
+                    <connections>
+                        <outlet property="webView" destination="WV6-bR-g5u" id="y4J-MZ-8wA"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1685" y="505"/>
         </scene>
     </scenes>
     <classes>
@@ -349,6 +382,12 @@
             <relationships>
                 <relationship kind="outlet" name="pdfUrlLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="OCTAWebPDFController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OCTAWebPDFController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
         </class>
         <class className="PDFScrollView" superclassName="UIScrollView">

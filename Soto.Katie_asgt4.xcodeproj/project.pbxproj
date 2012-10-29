@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291D6EC0163F232B00BBF5C9 /* OCTAWebPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291D6EBF163F232B00BBF5C9 /* OCTAWebPDFController.m */; };
+		291D6EC3163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 291D6EC2163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf */; };
 		369F0A231638B0D800E3516B /* OCTAPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369F0A221638B0D800E3516B /* OCTAPDFController.m */; };
 		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
 		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
@@ -61,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291D6EBE163F232B00BBF5C9 /* OCTAWebPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAWebPDFController.h; path = Soto.Katie_asgt4/OCTAWebPDFController.h; sourceTree = "<group>"; };
+		291D6EBF163F232B00BBF5C9 /* OCTAWebPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAWebPDFController.m; path = Soto.Katie_asgt4/OCTAWebPDFController.m; sourceTree = "<group>"; };
+		291D6EC2163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Metrolink_All_Lines_timetable_9.pdf; path = Resources/Metrolink_All_Lines_timetable_9.pdf; sourceTree = "<group>"; };
 		369F0A211638B0D800E3516B /* OCTAPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAPDFController.h; path = Soto.Katie_asgt4/OCTAPDFController.h; sourceTree = "<group>"; };
 		369F0A221638B0D800E3516B /* OCTAPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAPDFController.m; path = Soto.Katie_asgt4/OCTAPDFController.m; sourceTree = "<group>"; };
 		AC8815561635EC5700141253 /* MetrolinkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDataSource.h; path = Soto.Katie_asgt4/MetrolinkDataSource.h; sourceTree = "<group>"; };
@@ -157,6 +162,8 @@
 				CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */,
 				369F0A211638B0D800E3516B /* OCTAPDFController.h */,
 				369F0A221638B0D800E3516B /* OCTAPDFController.m */,
+				291D6EBE163F232B00BBF5C9 /* OCTAWebPDFController.h */,
+				291D6EBF163F232B00BBF5C9 /* OCTAWebPDFController.m */,
 			);
 			name = OCTA;
 			sourceTree = "<group>";
@@ -265,6 +272,7 @@
 		CEDAA52016321D6500FD3A25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				291D6EC2163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf */,
 				CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */,
 				CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */,
 				CEDAA52116321D7C00FD3A25 /* images */,
@@ -396,6 +404,7 @@
 				CE8E1E661637755A00DCB6CF /* stop_times.txt in Resources */,
 				CE8E1E671637755A00DCB6CF /* stops.txt in Resources */,
 				CE8E1E681637755A00DCB6CF /* trips.txt in Resources */,
+				291D6EC3163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +453,7 @@
 				CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */,
 				CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */,
 				369F0A231638B0D800E3516B /* OCTAPDFController.m in Sources */,
+				291D6EC0163F232B00BBF5C9 /* OCTAWebPDFController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,20 @@
 //
-//  MetrolinkPDFController.m
+//  OCTAPDFController.m
 //  Soto.Katie_asgt4
 //
-//  Created by Lion User on 23/10/2012.
+//  Created by CS User on 10/24/12.
 //  Copyright (c) 2012 Katie Soto. All rights reserved.
 //
 
-/*RETRIEVED FROM APPLE*/
-
-#import "MetrolinkPDFController.h"
+#import "OCTAPDFController.h"
 #import "PDFScrollView.h"
 #import <QuartzCore/QuartzCore.h> //MIGHT NOT NEED THIS
 
-@implementation MetrolinkPDFController
+@interface OCTAPDFController ()
 
+@end
+
+@implementation OCTAPDFController
 
 - (void)viewDidLoad
 {
@@ -23,7 +24,7 @@
      Open the PDF document, extract the first page, and pass the page to the PDF scroll view.
      */
     
-    NSURL *pdfURL = [[NSBundle mainBundle] URLForResource:@"Metrolink_All_Lines_timetable" withExtension:@"pdf"];
+    NSURL *pdfURL = [[NSBundle mainBundle] URLForResource:@"sysmapjune12" withExtension:@"pdf"];
     
     CGPDFDocumentRef PDFDocument = CGPDFDocumentCreateWithURL((__bridge CFURLRef)pdfURL);
     
@@ -33,6 +34,5 @@
     CGPDFDocumentRelease(PDFDocument);
     
 }
-
 
 @end

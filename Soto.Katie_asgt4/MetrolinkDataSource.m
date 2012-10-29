@@ -5,6 +5,7 @@
 
 @implementation MetrolinkDataSource
 
+@synthesize metroLines;
 @synthesize metroAntelopeValleyCities;
 @synthesize metroBurbankCities;
 @synthesize metroInlandCities;

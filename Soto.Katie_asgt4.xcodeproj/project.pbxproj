@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369F0A231638B0D800E3516B /* OCTAPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369F0A221638B0D800E3516B /* OCTAPDFController.m */; };
 		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
 		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
 		CE8E1E2516372E8A00DCB6CF /* MetrolinkLineList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E2416372E8900DCB6CF /* MetrolinkLineList.m */; };
@@ -60,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369F0A211638B0D800E3516B /* OCTAPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAPDFController.h; path = Soto.Katie_asgt4/OCTAPDFController.h; sourceTree = "<group>"; };
+		369F0A221638B0D800E3516B /* OCTAPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAPDFController.m; path = Soto.Katie_asgt4/OCTAPDFController.m; sourceTree = "<group>"; };
 		AC8815561635EC5700141253 /* MetrolinkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDataSource.h; path = Soto.Katie_asgt4/MetrolinkDataSource.h; sourceTree = "<group>"; };
 		AC8815571635EC5700141253 /* MetrolinkDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkDataSource.m; path = Soto.Katie_asgt4/MetrolinkDataSource.m; sourceTree = "<group>"; };
 		AC8815591635EF9100141253 /* OCTADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTADataSource.h; path = Soto.Katie_asgt4/OCTADataSource.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */,
 				CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */,
 				CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */,
+				369F0A211638B0D800E3516B /* OCTAPDFController.h */,
+				369F0A221638B0D800E3516B /* OCTAPDFController.m */,
 			);
 			name = OCTA;
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 				CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */,
 				CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */,
 				CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */,
+				369F0A231638B0D800E3516B /* OCTAPDFController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -108,7 +108,7 @@
                                      @"Upland",
                                      @"Montclair",
                                      @"Claremont",
-                                     @"Pomona",
+                                     @"Pomona (North)",
                                      @"Covina",
                                      @"Baldwin Park",
                                      @"El Monte",

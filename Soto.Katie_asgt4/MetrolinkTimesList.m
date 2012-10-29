@@ -12,6 +12,7 @@
 @implementation MetrolinkTimesList
 
 @synthesize lineName;
+@synthesize cityName;
 @synthesize lineURL;
 @synthesize webView;
 
@@ -30,7 +31,44 @@
     
     if (lineName == @"Antelope Valley")
     {
-        self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Antelope%20Valley/service_id/1142.html";
+        if(cityName == @"Lancaster")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/102.html";
+        }else if(cityName == @"Palmdale")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/114.html";
+        }else if(cityName == @"Vincent Grade / Action")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/134.html";
+        }else if(cityName == @"Via Princessa")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/117.html";
+        }else if(cityName == @"Santa Clarita")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/126.html";
+        }else if(cityName == @"Newhall")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/107.html";
+        }else if(cityName == @"Sylmar / San Fernando")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/129.html";
+        }else if(cityName == @"Sun Valley")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/128.html";
+        }else if(cityName == @"Downtown Burbank")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/86.html";
+        }else if(cityName == @"Glendale")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/98.html";
+        }else if(cityName == @"L.A. Union Station")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line_station/name/Antelope%20Valley/service_id/1142/stop_id/131.html";
+        }else
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Antelope%20Valley/service_id/1142.html";
+        }
+            
     }else if (lineName == @"Burbank-Bob Hope Airport")
     {
         self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";

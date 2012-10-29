@@ -57,6 +57,9 @@
     }else if (lineName == @"Inland Empire - Orange County")
     {
         metroLinkCities = self.metroData.metroInlandCities;
+    }else if (lineName == @"Orange County")
+    {
+        metroLinkCities = self.metroData.metroOrangeCities;
     }else if (lineName == @"Riverside")
     {
         metroLinkCities = self.metroData.metroRiversideCities;
@@ -134,6 +137,7 @@
     {
         MetrolinkTimesList *destViewController = segue.destinationViewController;
         destViewController.lineName = lineName;
+        destViewController.cityName = metroLinkCities;
     }
 }
 

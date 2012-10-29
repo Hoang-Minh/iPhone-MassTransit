@@ -26,6 +26,7 @@
                            initWithObjects:@"Antelope Valley",
                            @"Burbank-Bob Hope Airport",
                            @"Inland Empire - Orange County",
+                           @"Orange County",
                            @"Riverside",
                            @"San Bernardino",
                            @"Ventura County",

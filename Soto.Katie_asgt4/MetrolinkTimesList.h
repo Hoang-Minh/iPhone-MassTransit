@@ -12,11 +12,13 @@
 {
     IBOutlet UIWebView *webView;
     NSString *lineName;
+    NSString *cityName;
     NSString *lineURL;
 }
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
 @property (nonatomic, strong) NSString *lineName;
+@property (nonatomic, strong) NSString *cityName;
 @property (nonatomic, strong) NSString *lineURL;
 
 @end

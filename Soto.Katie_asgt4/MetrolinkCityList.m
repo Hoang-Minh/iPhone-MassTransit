@@ -119,7 +119,7 @@
 	cell.textLabel.text = [metroLinkCities objectAtIndex:indexPath.row];
     cell.detailTextLabel.text = @"test";
     
-    UIImage *theImage = [UIImage imageNamed:(@"12-6AM.png")];
+    UIImage *theImage = [UIImage imageNamed:(@"metro.png")];
     cell.imageView.image = theImage;
     
     return cell;

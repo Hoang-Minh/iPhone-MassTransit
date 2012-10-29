@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		291D6EC0163F232B00BBF5C9 /* OCTAWebPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291D6EBF163F232B00BBF5C9 /* OCTAWebPDFController.m */; };
 		291D6EC3163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 291D6EC2163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf */; };
+		291D6EC6163F329600BBF5C9 /* metro.png in Resources */ = {isa = PBXBuildFile; fileRef = 291D6EC4163F329600BBF5C9 /* metro.png */; };
+		291D6EC7163F329600BBF5C9 /* octa.png in Resources */ = {isa = PBXBuildFile; fileRef = 291D6EC5163F329600BBF5C9 /* octa.png */; };
 		369F0A231638B0D800E3516B /* OCTAPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369F0A221638B0D800E3516B /* OCTAPDFController.m */; };
 		AC8815581635EC5700141253 /* MetrolinkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8815571635EC5700141253 /* MetrolinkDataSource.m */; };
 		AC88155B1635EF9100141253 /* OCTADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88155A1635EF9100141253 /* OCTADataSource.m */; };
@@ -17,10 +19,6 @@
 		CE8E1E311637478F00DCB6CF /* MetrolinkTimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */; };
 		CE8E1E37163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */; };
 		CE8E1E39163753E700DCB6CF /* sysmapjune12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */; };
-		CE8E1E3E1637540C00DCB6CF /* 6-12AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */; };
-		CE8E1E3F1637540C00DCB6CF /* 6-12PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */; };
-		CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */; };
-		CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */; };
 		CE8E1E441637550300DCB6CF /* MetrolinkPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */; };
 		CE8E1E4E1637673200DCB6CF /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E4D1637673200DCB6CF /* PDFScrollView.m */; };
 		CE8E1E511637674D00DCB6CF /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E501637674D00DCB6CF /* TiledPDFView.m */; };
@@ -66,6 +64,8 @@
 		291D6EBE163F232B00BBF5C9 /* OCTAWebPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAWebPDFController.h; path = Soto.Katie_asgt4/OCTAWebPDFController.h; sourceTree = "<group>"; };
 		291D6EBF163F232B00BBF5C9 /* OCTAWebPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAWebPDFController.m; path = Soto.Katie_asgt4/OCTAWebPDFController.m; sourceTree = "<group>"; };
 		291D6EC2163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Metrolink_All_Lines_timetable_9.pdf; path = Resources/Metrolink_All_Lines_timetable_9.pdf; sourceTree = "<group>"; };
+		291D6EC4163F329600BBF5C9 /* metro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metro.png; path = Resources/images/metro.png; sourceTree = "<group>"; };
+		291D6EC5163F329600BBF5C9 /* octa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = octa.png; path = Resources/images/octa.png; sourceTree = "<group>"; };
 		369F0A211638B0D800E3516B /* OCTAPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAPDFController.h; path = Soto.Katie_asgt4/OCTAPDFController.h; sourceTree = "<group>"; };
 		369F0A221638B0D800E3516B /* OCTAPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAPDFController.m; path = Soto.Katie_asgt4/OCTAPDFController.m; sourceTree = "<group>"; };
 		AC8815561635EC5700141253 /* MetrolinkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkDataSource.h; path = Soto.Katie_asgt4/MetrolinkDataSource.h; sourceTree = "<group>"; };
@@ -80,10 +80,6 @@
 		CE8E1E301637478F00DCB6CF /* MetrolinkTimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkTimesList.m; path = Soto.Katie_asgt4/MetrolinkTimesList.m; sourceTree = "<group>"; };
 		CE8E1E36163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Metrolink_All_Lines_timetable.pdf; path = Resources/Metrolink_All_Lines_timetable.pdf; sourceTree = "<group>"; };
 		CE8E1E38163753E700DCB6CF /* sysmapjune12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sysmapjune12.pdf; path = Resources/sysmapjune12.pdf; sourceTree = "<group>"; };
-		CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6-12AM.png"; path = "Resources/images/6-12AM.png"; sourceTree = "<group>"; };
-		CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6-12PM.png"; path = "Resources/images/6-12PM.png"; sourceTree = "<group>"; };
-		CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-6AM.png"; path = "Resources/images/12-6AM.png"; sourceTree = "<group>"; };
-		CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-6PM.png"; path = "Resources/images/12-6PM.png"; sourceTree = "<group>"; };
 		CE8E1E421637550300DCB6CF /* MetrolinkPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetrolinkPDFController.h; path = Soto.Katie_asgt4/MetrolinkPDFController.h; sourceTree = "<group>"; };
 		CE8E1E431637550300DCB6CF /* MetrolinkPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetrolinkPDFController.m; path = Soto.Katie_asgt4/MetrolinkPDFController.m; sourceTree = "<group>"; };
 		CE8E1E4C1637673200DCB6CF /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFScrollView.h; path = Soto.Katie_asgt4/PDFScrollView.h; sourceTree = "<group>"; };
@@ -284,10 +280,8 @@
 		CEDAA52116321D7C00FD3A25 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				CE8E1E3A1637540C00DCB6CF /* 6-12AM.png */,
-				CE8E1E3B1637540C00DCB6CF /* 6-12PM.png */,
-				CE8E1E3C1637540C00DCB6CF /* 12-6AM.png */,
-				CE8E1E3D1637540C00DCB6CF /* 12-6PM.png */,
+				291D6EC4163F329600BBF5C9 /* metro.png */,
+				291D6EC5163F329600BBF5C9 /* octa.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -390,10 +384,6 @@
 				CEDAA4ED16320EFA00FD3A25 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CE8E1E37163753DB00DCB6CF /* Metrolink_All_Lines_timetable.pdf in Resources */,
 				CE8E1E39163753E700DCB6CF /* sysmapjune12.pdf in Resources */,
-				CE8E1E3E1637540C00DCB6CF /* 6-12AM.png in Resources */,
-				CE8E1E3F1637540C00DCB6CF /* 6-12PM.png in Resources */,
-				CE8E1E401637540C00DCB6CF /* 12-6AM.png in Resources */,
-				CE8E1E411637540C00DCB6CF /* 12-6PM.png in Resources */,
 				CE8E1E5F1637755A00DCB6CF /* agency.txt in Resources */,
 				CE8E1E601637755A00DCB6CF /* calendar.txt in Resources */,
 				CE8E1E611637755A00DCB6CF /* calendar_dates.txt in Resources */,
@@ -405,6 +395,8 @@
 				CE8E1E671637755A00DCB6CF /* stops.txt in Resources */,
 				CE8E1E681637755A00DCB6CF /* trips.txt in Resources */,
 				291D6EC3163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf in Resources */,
+				291D6EC6163F329600BBF5C9 /* metro.png in Resources */,
+				291D6EC7163F329600BBF5C9 /* octa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,14 +14,14 @@
     IBOutlet UITableView *tableView;
     OCTADataSource *_octaData;
     NSArray *octaStops;
-    int selectedIndex;
+    int selectedIndex; //*
     IBOutlet UILabel *pdfUrlLabel;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) OCTADataSource *octaData;
 @property (nonatomic, retain) NSArray *octaStops;
-@property (assign) int selectedIndex;
+@property (assign) int selectedIndex; //*
 @property (nonatomic, retain) IBOutlet UILabel *pdfUrlLabel;
 
 

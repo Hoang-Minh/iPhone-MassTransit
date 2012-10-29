@@ -46,11 +46,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    
-    NSLog(@"\npdf can be viewed at: %@", [self.octaData.octaPDFsFull objectAtIndex:self.selectedIndex]);
     self.pdfUrlLabel.text = [self.octaData.octaPDFsFull objectAtIndex:self.selectedIndex];
-    
 }
 
 

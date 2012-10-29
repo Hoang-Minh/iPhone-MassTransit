@@ -96,7 +96,6 @@
     
 	// Set up the cell.
 	cell.textLabel.text = [octaRoutes objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"test";
     
     UIImage *theImage = [UIImage imageNamed:(@"octa.png")];
     cell.imageView.image = theImage;

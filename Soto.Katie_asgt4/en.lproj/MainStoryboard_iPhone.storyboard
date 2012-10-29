@@ -169,7 +169,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="QDP-ig-Rjz" kind="push" identifier="showMetroCityDetail" id="tYU-F1-qAV"/>
+                                            <segue destination="QDP-ig-Rjz" kind="push" identifier="showMetroTimes" id="tYU-F1-qAV"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -189,26 +189,20 @@
             </objects>
             <point key="canvasLocation" x="1109" y="-758"/>
         </scene>
-        <!--View Controller - Times & Details-->
+        <!--Metrolink Times List - Times & Details-->
         <scene sceneID="6tS-5i-na3">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IN5-mS-Fm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="QDP-ig-Rjz" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uf5-9B-hMZ">
+                <viewController id="QDP-ig-Rjz" customClass="MetrolinkTimesList" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="GxL-Uc-NZf">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PDF will be displayed here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="yG1-oN-eAP">
-                                <rect key="frame" x="20" y="105" width="286" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
                     <navigationItem key="navigationItem" title="Times &amp; Details" id="Eyy-RW-fed"/>
+                    <connections>
+                        <outlet property="webView" destination="GxL-Uc-NZf" id="fKo-uc-UGb"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1515" y="-757"/>

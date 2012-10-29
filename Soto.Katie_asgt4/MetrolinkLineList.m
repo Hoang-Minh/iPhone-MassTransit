@@ -93,7 +93,6 @@
     
 	// Set up the cell.
 	cell.textLabel.text = [metroLinkLines objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"test";
     
     UIImage *theImage = [UIImage imageNamed:(@"metro.png")];
     cell.imageView.image = theImage;

@@ -7,6 +7,7 @@
 //
 
 #import "MetrolinkCityList.h"
+#import "MetrolinkTimesList.h"
 
 @interface MetrolinkCityList ()
 
@@ -117,7 +118,6 @@
     
 	// Set up the cell.
 	cell.textLabel.text = [metroLinkCities objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"test";
     
     UIImage *theImage = [UIImage imageNamed:(@"metro.png")];
     cell.imageView.image = theImage;
@@ -127,15 +127,14 @@
 
 //***********************************************
 /* RETRIEVED FROM APPCODA.COM */
-/*
+
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"showMetroLineDetail"])
+    if ([segue.identifier isEqualToString:@"showMetroTimes"])
     {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        MetrolinkCityList *destViewController = segue.destinationViewController;
-        destViewController.lineName = [metroLinkLines objectAtIndex:indexPath.row];
+        MetrolinkTimesList *destViewController = segue.destinationViewController;
+        destViewController.lineName = lineName;
     }
 }
-*/
+
 @end

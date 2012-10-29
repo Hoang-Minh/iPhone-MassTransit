@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface MetrolinkTimesList : UIViewController
+{
+    IBOutlet UIWebView *webView;
+    NSString *lineName;
+    NSString *lineURL;
+}
+
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, strong) NSString *lineName;
+@property (nonatomic, strong) NSString *lineURL;
 
 @end

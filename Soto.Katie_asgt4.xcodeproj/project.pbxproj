@@ -25,6 +25,7 @@
 		CE8E1E641637755A00DCB6CF /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1E5A1637755A00DCB6CF /* routes.txt */; };
 		CE8E1E6B1637772000DCB6CF /* OCTARouteList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */; };
 		CE8E1E6E16377A6100DCB6CF /* OCTAStopsList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */; };
+		CEA7DECC1644941A00751B44 /* 4-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA7DECB1644941A00751B44 /* 4-bg.png */; };
 		CEDAA4DA16320EF900FD3A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4D916320EF900FD3A25 /* UIKit.framework */; };
 		CEDAA4DC16320EF900FD3A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DB16320EF900FD3A25 /* Foundation.framework */; };
 		CEDAA4DE16320EF900FD3A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAA4DD16320EF900FD3A25 /* CoreGraphics.framework */; };
@@ -81,6 +82,7 @@
 		CE8E1E6A1637772000DCB6CF /* OCTARouteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTARouteList.m; path = Soto.Katie_asgt4/OCTARouteList.m; sourceTree = "<group>"; };
 		CE8E1E6C16377A6000DCB6CF /* OCTAStopsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAStopsList.h; path = Soto.Katie_asgt4/OCTAStopsList.h; sourceTree = "<group>"; };
 		CE8E1E6D16377A6000DCB6CF /* OCTAStopsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAStopsList.m; path = Soto.Katie_asgt4/OCTAStopsList.m; sourceTree = "<group>"; };
+		CEA7DECB1644941A00751B44 /* 4-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4-bg.png"; path = "Resources/images/4-bg.png"; sourceTree = "<group>"; };
 		CEDAA4D516320EF900FD3A25 /* Soto.Katie_asgt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soto.Katie_asgt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAA4D916320EF900FD3A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEDAA4DB16320EF900FD3A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +252,7 @@
 		CEDAA52116321D7C00FD3A25 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7DECB1644941A00751B44 /* 4-bg.png */,
 				291D6EC4163F329600BBF5C9 /* metro.png */,
 				291D6EC5163F329600BBF5C9 /* octa.png */,
 			);
@@ -357,6 +360,7 @@
 				291D6EC3163F25E800BBF5C9 /* Metrolink_All_Lines_timetable_9.pdf in Resources */,
 				291D6EC6163F329600BBF5C9 /* metro.png in Resources */,
 				291D6EC7163F329600BBF5C9 /* octa.png in Resources */,
+				CEA7DECC1644941A00751B44 /* 4-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

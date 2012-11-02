@@ -135,9 +135,10 @@
 {
     if ([segue.identifier isEqualToString:@"showMetroTimes"])
     {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         MetrolinkTimesList *destViewController = segue.destinationViewController;
         destViewController.lineName = lineName;
-        destViewController.cityName = metroLinkCities;
+        destViewController.cityName = [metroLinkCities objectAtIndex:indexPath.row];
     }
 }
 

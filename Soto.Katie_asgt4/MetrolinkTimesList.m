@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
     
+    NSLog(@"\nlineName = %@, cityName = %@", lineName, cityName);
+    
     if (lineName == @"Antelope Valley")
     {
         if(cityName == @"Lancaster")
@@ -71,13 +73,125 @@
             
     }else if (lineName == @"Burbank-Bob Hope Airport")
     {
-        self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        if(cityName == @"Burbank-Bob Hope Airport")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        }else if (cityName == @"Downtown Burbank")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        }else if (cityName == @"Glendale")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        }else if (cityName == @"L.A. Union Station")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        }else
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Burbank-Bob%20Hope%20Airport/service_id/1145.html";
+        }
     }else if (lineName == @"Inland Empire - Orange County")
     {
-        self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";;
+        if(cityName == @"Oceanside")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+            
+        }else if (cityName == @"San Clemente Pier")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if (cityName == @"San Clemente")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"San Juan Capistrano")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Laguna Niguel / Mission Viejo")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Irvine")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Tustin")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Santa Ana")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Orange")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Anaheim Canyon")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"West Corona")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"North Main Corona")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Riverside-La Sierra")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"Riverside-Downtown")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else if(cityName == @"San Bernardino")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }else
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Inland%20Emp-Orange%20Co/service_id/1153.html";
+        }
     }else if (lineName == @"Riverside")
     {
-        self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        if(cityName == @"Oceanside")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"San Clemente Pier")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"San Clemente")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"San Juan Capistrano")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Laguna Niguel / Mission Viejo")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Irvine")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Tustin")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Santa Ana")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Orange")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Anaheim")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Fullerton")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Buena Park")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Norwalk / Santa Fe Springs")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"Commerce")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else if(cityName == @"L.A. Union Station")
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }else
+        {
+            self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/Riverside/service_id/1149.html";
+        }
     }else if (lineName == @"San Bernardino")
     {
         self.lineURL = @"http://www.metrolinktrains.com/schedules/line/name/San%20Bernardino/service_id/1146.html";

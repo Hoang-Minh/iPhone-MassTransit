@@ -28,7 +28,7 @@
 //          A5) When a user clicks a cell in OCTARouteList, it segues to
 //              OCTAStopsList. During the segue, OCTARouteList sends the
 //              index the user just clicked to OCTAStopsList in the variable
-//              OCTAStopsListselectedIndex.
+//              OCTAStopsList.selectedIndex.
 //          A6) OCTAStopsList then uses the selectedIndex from OCTARouteList
 //              to find the associated PDF name from the data array. OCTAStopsList
 //              displays the pdf name/url in the view.

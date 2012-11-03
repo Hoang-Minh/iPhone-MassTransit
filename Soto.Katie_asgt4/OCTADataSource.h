@@ -46,6 +46,12 @@
 //          B3) PDFScrollView and TiledPDFView then work together to display the
 //              local pdf in the view.
 //
+//  Copyright note: The OCTA routes text file has been retrieved from:
+//      Source: Google Transit Data Feed
+//      Address: http://code.google.com/p/googletransitdatafeed/wiki/PublicFeeds
+//      Author: Unknown, assumed OCTA
+//      Date Retrieved: 10/2012
+//      Copyright: Unknown, assumed All Rights Reserved
 //
 
 #import <Foundation/Foundation.h>

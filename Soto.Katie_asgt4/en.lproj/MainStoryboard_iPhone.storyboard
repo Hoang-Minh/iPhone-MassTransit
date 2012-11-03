@@ -282,7 +282,7 @@
             </objects>
             <point key="canvasLocation" x="707" y="501"/>
         </scene>
-        <!--Stops List - Stops & Times-->
+        <!--Stops List - PDF Location-->
         <scene sceneID="Ckh-59-TKn">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IW3-k4-ubj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -324,7 +324,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Stops &amp; Times" id="o8Y-GJ-g3r"/>
+                    <navigationItem key="navigationItem" title="PDF Location" id="o8Y-GJ-g3r"/>
                     <connections>
                         <outlet property="pdfUrlLabel" destination="iVn-e9-WbF" id="bIw-sR-3Ln"/>
                     </connections>
@@ -332,7 +332,7 @@
             </objects>
             <point key="canvasLocation" x="1189" y="505"/>
         </scene>
-        <!--WebPDF Controller-->
+        <!--WebPDF Controller - Stops & Times PDF-->
         <scene sceneID="Jt9-A9-qg1">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ky0-br-5Bo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -342,7 +342,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </webView>
-                    <navigationItem key="navigationItem" id="7ei-Cg-soZ"/>
+                    <navigationItem key="navigationItem" title="Stops &amp; Times PDF" id="7ei-Cg-soZ"/>
                     <connections>
                         <outlet property="webView" destination="WV6-bR-g5u" id="y4J-MZ-8wA"/>
                     </connections>
